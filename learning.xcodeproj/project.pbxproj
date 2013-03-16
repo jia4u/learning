@@ -28,6 +28,15 @@
 		944B9B7016F4430800FEF4B0 /* learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B9B7316F4430800FEF4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		944B9B7516F4430800FEF4B0 /* learning.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = learning.1; sourceTree = "<group>"; };
+		944B9B7E16F4450D00FEF4B0 /* cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cluster.h; path = learning/global/item/cluster.h; sourceTree = "<group>"; };
+		944B9B7F16F4450D00FEF4B0 /* fact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fact.h; path = learning/global/item/fact.h; sourceTree = "<group>"; };
+		944B9B8016F4450D00FEF4B0 /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = learning/global/item/items.h; sourceTree = "<group>"; };
+		944B9B8116F4450D00FEF4B0 /* language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = language.h; path = learning/global/item/language.h; sourceTree = "<group>"; };
+		944B9B8216F4450D00FEF4B0 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = learning/global/item/object.h; sourceTree = "<group>"; };
+		944B9B8316F4450D00FEF4B0 /* rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rule.h; path = learning/global/item/rule.h; sourceTree = "<group>"; };
+		944B9B8416F4450D00FEF4B0 /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = status.h; path = learning/global/item/status.h; sourceTree = "<group>"; };
+		944B9B8516F4452000FEF4B0 /* muster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = muster.h; path = learning/global/muster.h; sourceTree = "<group>"; };
+		944B9B8716F4454800FEF4B0 /* int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = int.h; path = learning/include/int.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +53,15 @@
 		944B9B6716F4430700FEF4B0 = {
 			isa = PBXGroup;
 			children = (
+				944B9B8E16F445A200FEF4B0 /* core */,
+				944B9B8D16F4459200FEF4B0 /* doc */,
+				944B9B8C16F4458300FEF4B0 /* ext */,
+				944B9B8B16F4457600FEF4B0 /* bus */,
+				944B9B8A16F4456600FEF4B0 /* adapter */,
+				944B9B8916F4456100FEF4B0 /* lib */,
+				944B9B8816F4455A00FEF4B0 /* bin */,
+				944B9B8616F4453500FEF4B0 /* include */,
+				944B9B7C16F4434800FEF4B0 /* global */,
 				944B9B7216F4430800FEF4B0 /* learning */,
 				944B9B7116F4430800FEF4B0 /* Products */,
 			);
@@ -64,6 +82,86 @@
 				944B9B7516F4430800FEF4B0 /* learning.1 */,
 			);
 			path = learning;
+			sourceTree = "<group>";
+		};
+		944B9B7C16F4434800FEF4B0 /* global */ = {
+			isa = PBXGroup;
+			children = (
+				944B9B8516F4452000FEF4B0 /* muster.h */,
+				944B9B7D16F4436300FEF4B0 /* item */,
+			);
+			name = global;
+			sourceTree = "<group>";
+		};
+		944B9B7D16F4436300FEF4B0 /* item */ = {
+			isa = PBXGroup;
+			children = (
+				944B9B7E16F4450D00FEF4B0 /* cluster.h */,
+				944B9B7F16F4450D00FEF4B0 /* fact.h */,
+				944B9B8016F4450D00FEF4B0 /* items.h */,
+				944B9B8116F4450D00FEF4B0 /* language.h */,
+				944B9B8216F4450D00FEF4B0 /* object.h */,
+				944B9B8316F4450D00FEF4B0 /* rule.h */,
+				944B9B8416F4450D00FEF4B0 /* status.h */,
+			);
+			name = item;
+			sourceTree = "<group>";
+		};
+		944B9B8616F4453500FEF4B0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				944B9B8716F4454800FEF4B0 /* int.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		944B9B8816F4455A00FEF4B0 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+		944B9B8916F4456100FEF4B0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		944B9B8A16F4456600FEF4B0 /* adapter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = adapter;
+			sourceTree = "<group>";
+		};
+		944B9B8B16F4457600FEF4B0 /* bus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bus;
+			sourceTree = "<group>";
+		};
+		944B9B8C16F4458300FEF4B0 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ext;
+			sourceTree = "<group>";
+		};
+		944B9B8D16F4459200FEF4B0 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = doc;
+			sourceTree = "<group>";
+		};
+		944B9B8E16F445A200FEF4B0 /* core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
