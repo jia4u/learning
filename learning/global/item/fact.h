@@ -1,21 +1,20 @@
 //
 //  fact.h
-//  brain
+//  learning
 //
 //  Created by losor on 13-2-7.
 //  Copyright (c) 2013 losor. All rights reserved.
 //
 
-#ifndef brain_fact_h
-#define brain_fact_h
+#ifndef learning_fact_h
+#define learning_fact_h
 
-#include "status.h"
+#include "cluster.h"
 
-struct fact {
-    object supper;
-    object *subject;
-    status *_status;
-    };
-typedef struct fact fact;
+class fact : public object {
+public:
+  object *pred;
+  cluster *obj;
+};
 
 #endif

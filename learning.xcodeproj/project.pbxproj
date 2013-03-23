@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94161F4016FDD9A30067884C /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94161F3F16FDD9A30067884C /* object.cpp */; };
 		944B9B7416F4430800FEF4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 944B9B7316F4430800FEF4B0 /* main.cpp */; };
 		944B9B7616F4430800FEF4B0 /* learning.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 944B9B7516F4430800FEF4B0 /* learning.1 */; };
 /* End PBXBuildFile section */
@@ -25,12 +26,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		94161F3D16FDADDC0067884C /* assert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = assert.h; path = learning/global/item/assert.h; sourceTree = "<group>"; };
+		94161F3E16FDC1590067884C /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = learning/include/items.h; sourceTree = "<group>"; };
+		94161F3F16FDD9A30067884C /* object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = object.cpp; path = learning/global/item/object.cpp; sourceTree = "<group>"; };
+		94161F4116FDE7450067884C /* code.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = code.h; path = learning/core/instruction/code.h; sourceTree = "<group>"; };
+		94161F4216FDE7A70067884C /* addressing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = addressing.h; path = learning/core/instruction/addressing.h; sourceTree = "<group>"; };
+		941FA62716F5B9FA0008C52A /* module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = module.h; path = learning/include/module.h; sourceTree = "<group>"; };
+		941FA62A16F5BD840008C52A /* instruction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = instruction.h; path = learning/core/instruction/instruction.h; sourceTree = "<group>"; };
 		944B9B7016F4430800FEF4B0 /* learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B9B7316F4430800FEF4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		944B9B7516F4430800FEF4B0 /* learning.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = learning.1; sourceTree = "<group>"; };
 		944B9B7E16F4450D00FEF4B0 /* cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cluster.h; path = learning/global/item/cluster.h; sourceTree = "<group>"; };
 		944B9B7F16F4450D00FEF4B0 /* fact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fact.h; path = learning/global/item/fact.h; sourceTree = "<group>"; };
-		944B9B8016F4450D00FEF4B0 /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = learning/global/item/items.h; sourceTree = "<group>"; };
 		944B9B8116F4450D00FEF4B0 /* language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = language.h; path = learning/global/item/language.h; sourceTree = "<group>"; };
 		944B9B8216F4450D00FEF4B0 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = learning/global/item/object.h; sourceTree = "<group>"; };
 		944B9B8316F4450D00FEF4B0 /* rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rule.h; path = learning/global/item/rule.h; sourceTree = "<group>"; };
@@ -50,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		941FA62816F5BBE90008C52A /* instruction */ = {
+			isa = PBXGroup;
+			children = (
+				941FA62A16F5BD840008C52A /* instruction.h */,
+				94161F4116FDE7450067884C /* code.h */,
+				94161F4216FDE7A70067884C /* addressing.h */,
+			);
+			name = instruction;
+			sourceTree = "<group>";
+		};
 		944B9B6716F4430700FEF4B0 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +115,12 @@
 			children = (
 				944B9B7E16F4450D00FEF4B0 /* cluster.h */,
 				944B9B7F16F4450D00FEF4B0 /* fact.h */,
-				944B9B8016F4450D00FEF4B0 /* items.h */,
 				944B9B8116F4450D00FEF4B0 /* language.h */,
 				944B9B8216F4450D00FEF4B0 /* object.h */,
 				944B9B8316F4450D00FEF4B0 /* rule.h */,
 				944B9B8416F4450D00FEF4B0 /* status.h */,
+				94161F3D16FDADDC0067884C /* assert.h */,
+				94161F3F16FDD9A30067884C /* object.cpp */,
 			);
 			name = item;
 			sourceTree = "<group>";
@@ -110,7 +128,9 @@
 		944B9B8616F4453500FEF4B0 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				94161F3E16FDC1590067884C /* items.h */,
 				944B9B8716F4454800FEF4B0 /* int.h */,
+				941FA62716F5B9FA0008C52A /* module.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -160,6 +180,7 @@
 		944B9B8E16F445A200FEF4B0 /* core */ = {
 			isa = PBXGroup;
 			children = (
+				941FA62816F5BBE90008C52A /* instruction */,
 			);
 			name = core;
 			sourceTree = "<group>";
@@ -216,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				944B9B7416F4430800FEF4B0 /* main.cpp in Sources */,
+				94161F4016FDD9A30067884C /* object.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +334,7 @@
 				944B9B7B16F4430800FEF4B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

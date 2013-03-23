@@ -7,12 +7,19 @@
 //
 
 #include <iostream>
+#include "items.h"
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+  // insert code here...
+  std::cout << "Hello, World!\n";
+
+  language *lang;
+  lang = new language;
+  lang->word = NULL;
+  delete lang;
+
+  return 0;
 }
 

@@ -1,21 +1,28 @@
 //
 //  cluster.h
-//  brain
+//  learning
 //
 //  Created by losor on 13-2-7.
 //  Copyright (c) 2013 losor. All rights reserved.
 //
 
-#ifndef brain_cluster_h
-#define brain_cluster_h
+#ifndef learning_cluster_h
+#define learning_cluster_h
 
 #include "object.h"
 
-struct cluster {
-    object supper;
-    object *relation;
-    object **objects;
-    };
-typedef struct cluster cluster;
+enum relation {
+  AND_EACH,
+  AND_TOGETHER,
+  OR_EXIST,
+  OR_ATLEAST,
+  UNDEFINED,
+};
+
+class cluster : public object {
+public:
+  object *relation;
+  object **obj;
+};
 
 #endif
