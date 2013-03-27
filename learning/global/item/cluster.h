@@ -12,16 +12,16 @@
 #include "object.h"
 
 enum relation {
-  AND_EACH,
-  AND_TOGETHER,
-  OR_EXIST,
-  OR_ATLEAST,
-  UNDEFINED,
+  RELATE_AND_EACH,
+  RELATE_AND_TOGETHER,
+  RELATE_OR_EXIST,
+  RELATE_OR_ATLEAST,
+  RELATE_MUSTER,
 };
 
 class cluster : public object {
 public:
-  object *relation;
+  relation relation;
   object **obj;
 };
 
