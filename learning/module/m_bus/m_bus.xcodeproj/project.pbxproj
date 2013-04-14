@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943404F1171A8D6F00417095 /* bus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943404EE171A8D6F00417095 /* bus.cpp */; };
+		943404F2171A8D6F00417095 /* bus.h in Headers */ = {isa = PBXBuildFile; fileRef = 943404EF171A8D6F00417095 /* bus.h */; };
+		943404F3171A8D6F00417095 /* errdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 943404F0171A8D6F00417095 /* errdef.h */; };
+		94340501171A8E3500417095 /* adapter_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943404FD171A8E3500417095 /* adapter_manager.cpp */; };
+		94340502171A8E3500417095 /* adapter_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 943404FE171A8E3500417095 /* adapter_manager.h */; };
+		94340503171A8E3500417095 /* adapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943404FF171A8E3500417095 /* adapter.cpp */; };
+		94340504171A8E3500417095 /* adapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340500171A8E3500417095 /* adapter.h */; };
+		94340509171A8E4700417095 /* message_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94340506171A8E4700417095 /* message_manager.cpp */; };
+		9434050A171A8E4700417095 /* message_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340507171A8E4700417095 /* message_manager.h */; };
+		9434050B171A8E4700417095 /* message.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340508171A8E4700417095 /* message.h */; };
+		94340513171A8E5900417095 /* adapter_conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9434050D171A8E5900417095 /* adapter_conf.cpp */; };
+		94340514171A8E5900417095 /* adapter_conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9434050E171A8E5900417095 /* adapter_conf.h */; };
+		94340515171A8E5900417095 /* bus_conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9434050F171A8E5900417095 /* bus_conf.cpp */; };
+		94340516171A8E5900417095 /* bus_conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340510171A8E5900417095 /* bus_conf.h */; };
+		94340517171A8E5900417095 /* message_conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94340511171A8E5900417095 /* message_conf.cpp */; };
+		94340518171A8E5900417095 /* message_conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340512171A8E5900417095 /* message_conf.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		943404E0171A8D3700417095 /* libbus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libbus.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		943404EE171A8D6F00417095 /* bus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bus.cpp; sourceTree = "<group>"; };
+		943404EF171A8D6F00417095 /* bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bus.h; sourceTree = "<group>"; };
+		943404F0171A8D6F00417095 /* errdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errdef.h; sourceTree = "<group>"; };
+		943404FD171A8E3500417095 /* adapter_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adapter_manager.cpp; path = adapter/adapter_manager.cpp; sourceTree = "<group>"; };
+		943404FE171A8E3500417095 /* adapter_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adapter_manager.h; path = adapter/adapter_manager.h; sourceTree = "<group>"; };
+		943404FF171A8E3500417095 /* adapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adapter.cpp; path = adapter/adapter.cpp; sourceTree = "<group>"; };
+		94340500171A8E3500417095 /* adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adapter.h; path = adapter/adapter.h; sourceTree = "<group>"; };
+		94340506171A8E4700417095 /* message_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = message_manager.cpp; path = message/message_manager.cpp; sourceTree = "<group>"; };
+		94340507171A8E4700417095 /* message_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message_manager.h; path = message/message_manager.h; sourceTree = "<group>"; };
+		94340508171A8E4700417095 /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message.h; path = message/message.h; sourceTree = "<group>"; };
+		9434050D171A8E5900417095 /* adapter_conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adapter_conf.cpp; path = conf/adapter_conf.cpp; sourceTree = "<group>"; };
+		9434050E171A8E5900417095 /* adapter_conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adapter_conf.h; path = conf/adapter_conf.h; sourceTree = "<group>"; };
+		9434050F171A8E5900417095 /* bus_conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bus_conf.cpp; path = conf/bus_conf.cpp; sourceTree = "<group>"; };
+		94340510171A8E5900417095 /* bus_conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bus_conf.h; path = conf/bus_conf.h; sourceTree = "<group>"; };
+		94340511171A8E5900417095 /* message_conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = message_conf.cpp; path = conf/message_conf.cpp; sourceTree = "<group>"; };
+		94340512171A8E5900417095 /* message_conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message_conf.h; path = conf/message_conf.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943404DD171A8D3700417095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943404D7171A8D3700417095 = {
+			isa = PBXGroup;
+			children = (
+				943404ED171A8D4400417095 /* bus */,
+				943404E1171A8D3700417095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943404E1171A8D3700417095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943404E0171A8D3700417095 /* libbus.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943404ED171A8D4400417095 /* bus */ = {
+			isa = PBXGroup;
+			children = (
+				9434050C171A8E4C00417095 /* conf */,
+				94340505171A8E3A00417095 /* message */,
+				943404F4171A8D8500417095 /* adapter */,
+				943404EE171A8D6F00417095 /* bus.cpp */,
+				943404EF171A8D6F00417095 /* bus.h */,
+				943404F0171A8D6F00417095 /* errdef.h */,
+			);
+			name = bus;
+			sourceTree = "<group>";
+		};
+		943404F4171A8D8500417095 /* adapter */ = {
+			isa = PBXGroup;
+			children = (
+				943404FD171A8E3500417095 /* adapter_manager.cpp */,
+				943404FE171A8E3500417095 /* adapter_manager.h */,
+				943404FF171A8E3500417095 /* adapter.cpp */,
+				94340500171A8E3500417095 /* adapter.h */,
+			);
+			name = adapter;
+			sourceTree = "<group>";
+		};
+		94340505171A8E3A00417095 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				94340506171A8E4700417095 /* message_manager.cpp */,
+				94340507171A8E4700417095 /* message_manager.h */,
+				94340508171A8E4700417095 /* message.h */,
+			);
+			name = message;
+			sourceTree = "<group>";
+		};
+		9434050C171A8E4C00417095 /* conf */ = {
+			isa = PBXGroup;
+			children = (
+				9434050D171A8E5900417095 /* adapter_conf.cpp */,
+				9434050E171A8E5900417095 /* adapter_conf.h */,
+				9434050F171A8E5900417095 /* bus_conf.cpp */,
+				94340510171A8E5900417095 /* bus_conf.h */,
+				94340511171A8E5900417095 /* message_conf.cpp */,
+				94340512171A8E5900417095 /* message_conf.h */,
+			);
+			name = conf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		943404DE171A8D3700417095 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943404F2171A8D6F00417095 /* bus.h in Headers */,
+				943404F3171A8D6F00417095 /* errdef.h in Headers */,
+				94340502171A8E3500417095 /* adapter_manager.h in Headers */,
+				94340504171A8E3500417095 /* adapter.h in Headers */,
+				9434050A171A8E4700417095 /* message_manager.h in Headers */,
+				9434050B171A8E4700417095 /* message.h in Headers */,
+				94340514171A8E5900417095 /* adapter_conf.h in Headers */,
+				94340516171A8E5900417095 /* bus_conf.h in Headers */,
+				94340518171A8E5900417095 /* message_conf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		943404DF171A8D3700417095 /* m_bus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943404E4171A8D3700417095 /* Build configuration list for PBXNativeTarget "m_bus" */;
+			buildPhases = (
+				943404DC171A8D3700417095 /* Sources */,
+				943404DD171A8D3700417095 /* Frameworks */,
+				943404DE171A8D3700417095 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = m_bus;
+			productName = m_bus;
+			productReference = 943404E0171A8D3700417095 /* libbus.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943404D8171A8D3700417095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = losor;
+			};
+			buildConfigurationList = 943404DB171A8D3700417095 /* Build configuration list for PBXProject "m_bus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 943404D7171A8D3700417095;
+			productRefGroup = 943404E1171A8D3700417095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943404DF171A8D3700417095 /* m_bus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943404DC171A8D3700417095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943404F1171A8D6F00417095 /* bus.cpp in Sources */,
+				94340501171A8E3500417095 /* adapter_manager.cpp in Sources */,
+				94340503171A8E3500417095 /* adapter.cpp in Sources */,
+				94340509171A8E4700417095 /* message_manager.cpp in Sources */,
+				94340513171A8E5900417095 /* adapter_conf.cpp in Sources */,
+				94340515171A8E5900417095 /* bus_conf.cpp in Sources */,
+				94340517171A8E5900417095 /* message_conf.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		943404E2171A8D3700417095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		943404E3171A8D3700417095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		943404E5171A8D3700417095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
+				LD_DYLIB_INSTALL_NAME = /Users/losor/Documents/project/learning/learning/bin/libbus.dylib;
+				PRODUCT_NAME = bus;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
+			};
+			name = Debug;
+		};
+		943404E6171A8D3700417095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
+				LD_DYLIB_INSTALL_NAME = /Users/losor/Documents/project/learning/learning/bin/libbus.dylib;
+				PRODUCT_NAME = bus;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943404DB171A8D3700417095 /* Build configuration list for PBXProject "m_bus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943404E2171A8D3700417095 /* Debug */,
+				943404E3171A8D3700417095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943404E4171A8D3700417095 /* Build configuration list for PBXNativeTarget "m_bus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943404E5171A8D3700417095 /* Debug */,
+				943404E6171A8D3700417095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943404D8171A8D3700417095 /* Project object */;
+}

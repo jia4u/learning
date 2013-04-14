@@ -7,17 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94161F4016FDD9A30067884C /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94161F3F16FDD9A30067884C /* object.cpp */; };
 		944B9B7416F4430800FEF4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 944B9B7316F4430800FEF4B0 /* main.cpp */; };
 		944B9B7616F4430800FEF4B0 /* learning.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 944B9B7516F4430800FEF4B0 /* learning.1 */; };
-		94AEEE091703465C003CFBCD /* bus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEE081703465C003CFBCD /* bus.cpp */; };
-		94AEEE0C17034BD1003CFBCD /* message_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEE0B17034BD1003CFBCD /* message_manager.cpp */; };
-		94AEEE0F17034EDF003CFBCD /* adapter_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEE0E17034EDF003CFBCD /* adapter_manager.cpp */; };
-		94AEEE1117035181003CFBCD /* adapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEE1017035181003CFBCD /* adapter.cpp */; };
-		94AEEE1317035425003CFBCD /* bus_conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEE1217035425003CFBCD /* bus_conf.cpp */; };
-		94AEEE18170356E8003CFBCD /* adapter_conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEE17170356E8003CFBCD /* adapter_conf.cpp */; };
-		94AEEE1A17035A12003CFBCD /* message_conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94AEEE1917035A12003CFBCD /* message_conf.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943404C4171A8C6800417095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943404C0171A8C6700417095 /* m_loader.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 943404B9171A8C6700417095;
+			remoteInfo = m_loader;
+		};
+		943404EB171A8D3800417095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943404E7171A8D3700417095 /* m_bus.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 943404E0171A8D3700417095;
+			remoteInfo = m_bus;
+		};
+		9434052F171A9A6400417095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9434052B171A9A6300417095 /* object.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94340524171A9A6300417095;
+			remoteInfo = object;
+		};
+		94340545171A9ADB00417095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94340541171A9ADB00417095 /* instruction.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9434053A171A9ADB00417095;
+			remoteInfo = instruction;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		944B9B6E16F4430700FEF4B0 /* CopyFiles */ = {
@@ -33,48 +56,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		940E623A16FF132800F001D6 /* adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = adapter.h; path = learning/module/bus/adapter/adapter.h; sourceTree = "<group>"; };
 		940E623E16FF357300F001D6 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = learning/include/event.h; sourceTree = "<group>"; };
-		940E624116FF3A1A00F001D6 /* addressing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = addressing.h; path = learning/global/instruction/addressing.h; sourceTree = "<group>"; };
-		940E624216FF3A1A00F001D6 /* code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = code.h; path = learning/global/instruction/code.h; sourceTree = "<group>"; };
-		940E624316FF3A1A00F001D6 /* instruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = instruction.h; path = learning/global/instruction/instruction.h; sourceTree = "<group>"; };
-		940E624416FF3A9A00F001D6 /* bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bus.h; path = learning/module/bus/bus.h; sourceTree = "<group>"; };
-		940E624516FF426000F001D6 /* adapter_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = adapter_manager.h; path = learning/module/bus/adapter/adapter_manager.h; sourceTree = "<group>"; };
 		940E624916FF5A0600F001D6 /* manual.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = manual.html; path = learning/ext/rapidxml/manual.html; sourceTree = "<group>"; };
 		940E624A16FF5A0600F001D6 /* rapidxml_iterators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rapidxml_iterators.h; path = learning/ext/rapidxml/rapidxml_iterators.h; sourceTree = "<group>"; };
 		940E624B16FF5A0600F001D6 /* rapidxml_print.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rapidxml_print.h; path = learning/ext/rapidxml/rapidxml_print.h; sourceTree = "<group>"; };
 		940E624C16FF5A0600F001D6 /* rapidxml_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rapidxml_utils.h; path = learning/ext/rapidxml/rapidxml_utils.h; sourceTree = "<group>"; };
 		940E624D16FF5A0600F001D6 /* rapidxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rapidxml.h; path = learning/ext/rapidxml/rapidxml.h; sourceTree = "<group>"; };
 		94161F3E16FDC1590067884C /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = learning/include/items.h; sourceTree = "<group>"; };
-		94161F3F16FDD9A30067884C /* object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = object.cpp; path = learning/global/item/object.cpp; sourceTree = "<group>"; };
 		941FA62716F5B9FA0008C52A /* module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = module.h; path = learning/include/module.h; sourceTree = "<group>"; };
+		94340498171A839900417095 /* assertion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = assertion.h; path = learning/include/assertion.h; sourceTree = "<group>"; };
+		943404C0171A8C6700417095 /* m_loader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = m_loader.xcodeproj; path = learning/module/m_loader/m_loader.xcodeproj; sourceTree = "<group>"; };
+		943404E7171A8D3700417095 /* m_bus.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = m_bus.xcodeproj; path = learning/module/m_bus/m_bus.xcodeproj; sourceTree = "<group>"; };
+		9434051A171A985E00417095 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config; path = learning/conf/config; sourceTree = "<group>"; };
+		9434052B171A9A6300417095 /* object.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = object.xcodeproj; path = learning/lib/object/object.xcodeproj; sourceTree = "<group>"; };
+		94340541171A9ADB00417095 /* instruction.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = instruction.xcodeproj; path = learning/lib/instruction/instruction.xcodeproj; sourceTree = "<group>"; };
 		94373EF61701BF26009887C3 /* bus_compatible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bus_compatible.h; path = learning/include/bus_compatible.h; sourceTree = "<group>"; };
 		944B9B7016F4430800FEF4B0 /* learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B9B7316F4430800FEF4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		944B9B7516F4430800FEF4B0 /* learning.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = learning.1; sourceTree = "<group>"; };
-		944B9B7E16F4450D00FEF4B0 /* cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cluster.h; path = learning/global/item/cluster.h; sourceTree = "<group>"; };
-		944B9B7F16F4450D00FEF4B0 /* fact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fact.h; path = learning/global/item/fact.h; sourceTree = "<group>"; };
-		944B9B8116F4450D00FEF4B0 /* language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = language.h; path = learning/global/item/language.h; sourceTree = "<group>"; };
-		944B9B8216F4450D00FEF4B0 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = learning/global/item/object.h; sourceTree = "<group>"; };
-		944B9B8316F4450D00FEF4B0 /* rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rule.h; path = learning/global/item/rule.h; sourceTree = "<group>"; };
-		944B9B8416F4450D00FEF4B0 /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = status.h; path = learning/global/item/status.h; sourceTree = "<group>"; };
 		944B9B8716F4454800FEF4B0 /* int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = int.h; path = learning/include/int.h; sourceTree = "<group>"; };
-		94AEEE02170338AF003CFBCD /* message_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = message_conf.h; path = learning/module/bus/conf/message_conf.h; sourceTree = "<group>"; };
-		94AEEE03170338D4003CFBCD /* adapter_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = adapter_conf.h; path = learning/module/bus/conf/adapter_conf.h; sourceTree = "<group>"; };
-		94AEEE04170338FC003CFBCD /* bus_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bus_conf.h; path = learning/module/bus/conf/bus_conf.h; sourceTree = "<group>"; };
-		94AEEE0617033A79003CFBCD /* config */ = {isa = PBXFileReference; lastKnownFileType = text; name = config; path = learning/config; sourceTree = "<group>"; };
 		94AEEE0717034193003CFBCD /* xml_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xml_conf.h; path = learning/include/xml_conf.h; sourceTree = "<group>"; };
-		94AEEE081703465C003CFBCD /* bus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bus.cpp; path = learning/module/bus/bus.cpp; sourceTree = "<group>"; };
-		94AEEE0A1703485B003CFBCD /* errdef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = errdef.h; path = learning/module/bus/errdef.h; sourceTree = "<group>"; };
-		94AEEE0B17034BD1003CFBCD /* message_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = message_manager.cpp; path = learning/module/bus/message/message_manager.cpp; sourceTree = "<group>"; };
 		94AEEE0D17034D11003CFBCD /* err_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = err_common.h; path = learning/include/err_common.h; sourceTree = "<group>"; };
-		94AEEE0E17034EDF003CFBCD /* adapter_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adapter_manager.cpp; path = learning/module/bus/adapter/adapter_manager.cpp; sourceTree = "<group>"; };
-		94AEEE1017035181003CFBCD /* adapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adapter.cpp; path = learning/module/bus/adapter/adapter.cpp; sourceTree = "<group>"; };
-		94AEEE1217035425003CFBCD /* bus_conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bus_conf.cpp; path = learning/module/bus/conf/bus_conf.cpp; sourceTree = "<group>"; };
-		94AEEE17170356E8003CFBCD /* adapter_conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = adapter_conf.cpp; path = learning/module/bus/conf/adapter_conf.cpp; sourceTree = "<group>"; };
-		94AEEE1917035A12003CFBCD /* message_conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = message_conf.cpp; path = learning/module/bus/conf/message_conf.cpp; sourceTree = "<group>"; };
-		94FACC091701DBA800720E25 /* message_manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = message_manager.h; path = learning/module/bus/message/message_manager.h; sourceTree = "<group>"; };
-		94FACC0A1701DBEE00720E25 /* message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = message.h; path = learning/module/bus/message/message.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,85 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		940E622F16FF115B00F001D6 /* bus */ = {
-			isa = PBXGroup;
-			children = (
-				94AEEE0A1703485B003CFBCD /* errdef.h */,
-				940E624416FF3A9A00F001D6 /* bus.h */,
-				94AEEE081703465C003CFBCD /* bus.cpp */,
-				94FACC0B1701DFD700720E25 /* conf */,
-				94FACC081701DB6A00720E25 /* mesage */,
-				940E623216FF11AD00F001D6 /* adapter */,
-			);
-			name = bus;
-			sourceTree = "<group>";
-		};
-		940E623016FF118200F001D6 /* core */ = {
-			isa = PBXGroup;
-			children = (
-				940E623616FF122D00F001D6 /* kernel */,
-				940E623516FF121D00F001D6 /* executor */,
-				940E623416FF120400F001D6 /* register */,
-			);
-			name = core;
-			sourceTree = "<group>";
-		};
-		940E623216FF11AD00F001D6 /* adapter */ = {
-			isa = PBXGroup;
-			children = (
-				940E623A16FF132800F001D6 /* adapter.h */,
-				94AEEE1017035181003CFBCD /* adapter.cpp */,
-				940E624516FF426000F001D6 /* adapter_manager.h */,
-				94AEEE0E17034EDF003CFBCD /* adapter_manager.cpp */,
-			);
-			name = adapter;
-			sourceTree = "<group>";
-		};
-		940E623416FF120400F001D6 /* register */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = register;
-			sourceTree = "<group>";
-		};
-		940E623516FF121D00F001D6 /* executor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = executor;
-			sourceTree = "<group>";
-		};
-		940E623616FF122D00F001D6 /* kernel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = kernel;
-			sourceTree = "<group>";
-		};
-		940E623C16FF176200F001D6 /* loader */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = loader;
-			sourceTree = "<group>";
-		};
-		940E623F16FF357D00F001D6 /* event */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = event;
-			sourceTree = "<group>";
-		};
-		940E624016FF397600F001D6 /* instruction */ = {
-			isa = PBXGroup;
-			children = (
-				940E624116FF3A1A00F001D6 /* addressing.h */,
-				940E624216FF3A1A00F001D6 /* code.h */,
-				940E624316FF3A1A00F001D6 /* instruction.h */,
-			);
-			name = instruction;
-			sourceTree = "<group>";
-		};
 		940E624816FF59E700F001D6 /* rapidxml */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,17 +102,57 @@
 			name = rapidxml;
 			sourceTree = "<group>";
 		};
+		943404C1171A8C6700417095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943404C5171A8C6800417095 /* libm_loader.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943404E8171A8D3700417095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943404EC171A8D3800417095 /* libm_bus.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94340519171A980A00417095 /* conf */ = {
+			isa = PBXGroup;
+			children = (
+				9434051A171A985E00417095 /* config */,
+			);
+			name = conf;
+			sourceTree = "<group>";
+		};
+		9434052C171A9A6300417095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94340530171A9A6400417095 /* libobject.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94340542171A9ADB00417095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94340546171A9ADB00417095 /* libinstruction.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		944B9B6716F4430700FEF4B0 = {
 			isa = PBXGroup;
 			children = (
-				94AEEE0617033A79003CFBCD /* config */,
+				94340541171A9ADB00417095 /* instruction.xcodeproj */,
+				9434052B171A9A6300417095 /* object.xcodeproj */,
+				943404E7171A8D3700417095 /* m_bus.xcodeproj */,
+				943404C0171A8C6700417095 /* m_loader.xcodeproj */,
+				94340519171A980A00417095 /* conf */,
 				944B9B8D16F4459200FEF4B0 /* doc */,
 				944B9B8C16F4458300FEF4B0 /* ext */,
-				944B9B8A16F4456600FEF4B0 /* module */,
-				944B9B8916F4456100FEF4B0 /* lib */,
-				944B9B8816F4455A00FEF4B0 /* bin */,
 				944B9B8616F4453500FEF4B0 /* include */,
-				944B9B7C16F4434800FEF4B0 /* global */,
 				944B9B7216F4430800FEF4B0 /* learning */,
 				944B9B7116F4430800FEF4B0 /* Products */,
 			);
@@ -212,30 +175,6 @@
 			path = learning;
 			sourceTree = "<group>";
 		};
-		944B9B7C16F4434800FEF4B0 /* global */ = {
-			isa = PBXGroup;
-			children = (
-				940E624016FF397600F001D6 /* instruction */,
-				940E623F16FF357D00F001D6 /* event */,
-				944B9B7D16F4436300FEF4B0 /* item */,
-			);
-			name = global;
-			sourceTree = "<group>";
-		};
-		944B9B7D16F4436300FEF4B0 /* item */ = {
-			isa = PBXGroup;
-			children = (
-				944B9B7E16F4450D00FEF4B0 /* cluster.h */,
-				944B9B7F16F4450D00FEF4B0 /* fact.h */,
-				944B9B8116F4450D00FEF4B0 /* language.h */,
-				944B9B8216F4450D00FEF4B0 /* object.h */,
-				944B9B8316F4450D00FEF4B0 /* rule.h */,
-				944B9B8416F4450D00FEF4B0 /* status.h */,
-				94161F3F16FDD9A30067884C /* object.cpp */,
-			);
-			name = item;
-			sourceTree = "<group>";
-		};
 		944B9B8616F4453500FEF4B0 /* include */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,32 +185,9 @@
 				94373EF61701BF26009887C3 /* bus_compatible.h */,
 				94AEEE0717034193003CFBCD /* xml_conf.h */,
 				94AEEE0D17034D11003CFBCD /* err_common.h */,
+				94340498171A839900417095 /* assertion.h */,
 			);
 			name = include;
-			sourceTree = "<group>";
-		};
-		944B9B8816F4455A00FEF4B0 /* bin */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = bin;
-			sourceTree = "<group>";
-		};
-		944B9B8916F4456100FEF4B0 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = lib;
-			sourceTree = "<group>";
-		};
-		944B9B8A16F4456600FEF4B0 /* module */ = {
-			isa = PBXGroup;
-			children = (
-				940E623C16FF176200F001D6 /* loader */,
-				940E623016FF118200F001D6 /* core */,
-				940E622F16FF115B00F001D6 /* bus */,
-			);
-			name = module;
 			sourceTree = "<group>";
 		};
 		944B9B8C16F4458300FEF4B0 /* ext */ = {
@@ -287,29 +203,6 @@
 			children = (
 			);
 			name = doc;
-			sourceTree = "<group>";
-		};
-		94FACC081701DB6A00720E25 /* mesage */ = {
-			isa = PBXGroup;
-			children = (
-				94FACC0A1701DBEE00720E25 /* message.h */,
-				94FACC091701DBA800720E25 /* message_manager.h */,
-				94AEEE0B17034BD1003CFBCD /* message_manager.cpp */,
-			);
-			name = mesage;
-			sourceTree = "<group>";
-		};
-		94FACC0B1701DFD700720E25 /* conf */ = {
-			isa = PBXGroup;
-			children = (
-				94AEEE02170338AF003CFBCD /* message_conf.h */,
-				94AEEE1917035A12003CFBCD /* message_conf.cpp */,
-				94AEEE03170338D4003CFBCD /* adapter_conf.h */,
-				94AEEE17170356E8003CFBCD /* adapter_conf.cpp */,
-				94AEEE04170338FC003CFBCD /* bus_conf.h */,
-				94AEEE1217035425003CFBCD /* bus_conf.cpp */,
-			);
-			name = conf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,6 +244,24 @@
 			mainGroup = 944B9B6716F4430700FEF4B0;
 			productRefGroup = 944B9B7116F4430800FEF4B0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 94340542171A9ADB00417095 /* Products */;
+					ProjectRef = 94340541171A9ADB00417095 /* instruction.xcodeproj */;
+				},
+				{
+					ProductGroup = 943404E8171A8D3700417095 /* Products */;
+					ProjectRef = 943404E7171A8D3700417095 /* m_bus.xcodeproj */;
+				},
+				{
+					ProductGroup = 943404C1171A8C6700417095 /* Products */;
+					ProjectRef = 943404C0171A8C6700417095 /* m_loader.xcodeproj */;
+				},
+				{
+					ProductGroup = 9434052C171A9A6300417095 /* Products */;
+					ProjectRef = 9434052B171A9A6300417095 /* object.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				944B9B6F16F4430700FEF4B0 /* learning */,
@@ -358,20 +269,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		943404C5171A8C6800417095 /* libm_loader.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libm_loader.dylib;
+			remoteRef = 943404C4171A8C6800417095 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		943404EC171A8D3800417095 /* libm_bus.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libm_bus.dylib;
+			remoteRef = 943404EB171A8D3800417095 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94340530171A9A6400417095 /* libobject.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libobject.dylib;
+			remoteRef = 9434052F171A9A6400417095 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		94340546171A9ADB00417095 /* libinstruction.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libinstruction.dylib;
+			remoteRef = 94340545171A9ADB00417095 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXSourcesBuildPhase section */
 		944B9B6C16F4430700FEF4B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				944B9B7416F4430800FEF4B0 /* main.cpp in Sources */,
-				94161F4016FDD9A30067884C /* object.cpp in Sources */,
-				94AEEE091703465C003CFBCD /* bus.cpp in Sources */,
-				94AEEE0C17034BD1003CFBCD /* message_manager.cpp in Sources */,
-				94AEEE0F17034EDF003CFBCD /* adapter_manager.cpp in Sources */,
-				94AEEE1117035181003CFBCD /* adapter.cpp in Sources */,
-				94AEEE1317035425003CFBCD /* bus_conf.cpp in Sources */,
-				94AEEE18170356E8003CFBCD /* adapter_conf.cpp in Sources */,
-				94AEEE1A17035A12003CFBCD /* message_conf.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +340,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PRELINK_LIBS = "";
 				SDKROOT = macosx;
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Debug;
 		};
@@ -431,21 +367,32 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRELINK_LIBS = "";
 				SDKROOT = macosx;
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Release;
 		};
 		944B9B7A16F4430800FEF4B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				LIBRARY_SEARCH_PATHS = "/Users/losor/Documents/project/learning/learning/bin/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_LDFLAGS = "-lobject";
+				PRELINK_LIBS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Debug;
 		};
 		944B9B7B16F4430800FEF4B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "/Users/losor/Documents/project/learning/learning/bin/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_LDFLAGS = "-lobject";
+				PRELINK_LIBS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Release;
 		};

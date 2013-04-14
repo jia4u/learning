@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943404CF171A8C8C00417095 /* loader_conf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943404C7171A8C8C00417095 /* loader_conf.cpp */; };
+		943404D0171A8C8C00417095 /* loader_conf.h in Headers */ = {isa = PBXBuildFile; fileRef = 943404C8171A8C8C00417095 /* loader_conf.h */; };
+		943404D1171A8C8C00417095 /* loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943404C9171A8C8C00417095 /* loader.cpp */; };
+		943404D2171A8C8C00417095 /* loader.h in Headers */ = {isa = PBXBuildFile; fileRef = 943404CA171A8C8C00417095 /* loader.h */; };
+		943404D3171A8C8C00417095 /* module_info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943404CB171A8C8C00417095 /* module_info.cpp */; };
+		943404D4171A8C8C00417095 /* module_info.h in Headers */ = {isa = PBXBuildFile; fileRef = 943404CC171A8C8C00417095 /* module_info.h */; };
+		943404D5171A8C8C00417095 /* module_manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 943404CD171A8C8C00417095 /* module_manager.cpp */; };
+		943404D6171A8C8C00417095 /* module_manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 943404CE171A8C8C00417095 /* module_manager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		943404B9171A8C6700417095 /* libloader.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libloader.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		943404C7171A8C8C00417095 /* loader_conf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loader_conf.cpp; sourceTree = "<group>"; };
+		943404C8171A8C8C00417095 /* loader_conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loader_conf.h; sourceTree = "<group>"; };
+		943404C9171A8C8C00417095 /* loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = loader.cpp; sourceTree = "<group>"; };
+		943404CA171A8C8C00417095 /* loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loader.h; sourceTree = "<group>"; };
+		943404CB171A8C8C00417095 /* module_info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = module_info.cpp; sourceTree = "<group>"; };
+		943404CC171A8C8C00417095 /* module_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module_info.h; sourceTree = "<group>"; };
+		943404CD171A8C8C00417095 /* module_manager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = module_manager.cpp; sourceTree = "<group>"; };
+		943404CE171A8C8C00417095 /* module_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module_manager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		943404B6171A8C6700417095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943404B0171A8C6700417095 = {
+			isa = PBXGroup;
+			children = (
+				943404C6171A8C7400417095 /* loader */,
+				943404BA171A8C6700417095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		943404BA171A8C6700417095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				943404B9171A8C6700417095 /* libloader.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943404C6171A8C7400417095 /* loader */ = {
+			isa = PBXGroup;
+			children = (
+				943404C7171A8C8C00417095 /* loader_conf.cpp */,
+				943404C8171A8C8C00417095 /* loader_conf.h */,
+				943404C9171A8C8C00417095 /* loader.cpp */,
+				943404CA171A8C8C00417095 /* loader.h */,
+				943404CB171A8C8C00417095 /* module_info.cpp */,
+				943404CC171A8C8C00417095 /* module_info.h */,
+				943404CD171A8C8C00417095 /* module_manager.cpp */,
+				943404CE171A8C8C00417095 /* module_manager.h */,
+			);
+			name = loader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		943404B7171A8C6700417095 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943404D0171A8C8C00417095 /* loader_conf.h in Headers */,
+				943404D2171A8C8C00417095 /* loader.h in Headers */,
+				943404D4171A8C8C00417095 /* module_info.h in Headers */,
+				943404D6171A8C8C00417095 /* module_manager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		943404B8171A8C6700417095 /* m_loader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943404BD171A8C6700417095 /* Build configuration list for PBXNativeTarget "m_loader" */;
+			buildPhases = (
+				943404B5171A8C6700417095 /* Sources */,
+				943404B6171A8C6700417095 /* Frameworks */,
+				943404B7171A8C6700417095 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = m_loader;
+			productName = m_loader;
+			productReference = 943404B9171A8C6700417095 /* libloader.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943404B1171A8C6700417095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = losor;
+			};
+			buildConfigurationList = 943404B4171A8C6700417095 /* Build configuration list for PBXProject "m_loader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 943404B0171A8C6700417095;
+			productRefGroup = 943404BA171A8C6700417095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				943404B8171A8C6700417095 /* m_loader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		943404B5171A8C6700417095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943404CF171A8C8C00417095 /* loader_conf.cpp in Sources */,
+				943404D1171A8C8C00417095 /* loader.cpp in Sources */,
+				943404D3171A8C8C00417095 /* module_info.cpp in Sources */,
+				943404D5171A8C8C00417095 /* module_manager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		943404BB171A8C6700417095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		943404BC171A8C6700417095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		943404BE171A8C6700417095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
+				LD_DYLIB_INSTALL_NAME = /Users/losor/Documents/project/learning/learning/bin/libloader.dylib;
+				PRODUCT_NAME = loader;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
+			};
+			name = Debug;
+		};
+		943404BF171A8C6700417095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
+				LD_DYLIB_INSTALL_NAME = /Users/losor/Documents/project/learning/learning/bin/libloader.dylib;
+				PRODUCT_NAME = loader;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943404B4171A8C6700417095 /* Build configuration list for PBXProject "m_loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943404BB171A8C6700417095 /* Debug */,
+				943404BC171A8C6700417095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943404BD171A8C6700417095 /* Build configuration list for PBXNativeTarget "m_loader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943404BE171A8C6700417095 /* Debug */,
+				943404BF171A8C6700417095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943404B1171A8C6700417095 /* Project object */;
+}

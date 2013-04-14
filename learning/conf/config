@@ -1,0 +1,48 @@
+<learning>
+
+  <modules>
+
+    <module>
+      <name> bus </name>
+      <id> 1 </id>
+      <binary> lib/bus.mylib </binary>
+      <init> init_bus </init>
+      <depend> 3 </depend>
+      <depend> 4 </depend>
+      <conf>
+        <adapter>
+          <id> 3 </id>
+          <messages>
+            <message>
+              <id> 1 </id>
+              <type> 0 </type>
+              <name> query lastest </name>
+              <description> query the lastest object from the module</description>
+            </message>
+
+            <message>
+              <id> 2 </id>
+              <type> 3 </type>
+              <name> who has object </type>
+              <description> who has the special object please tell me </description>
+            </message>
+          </messages>
+        </adapter>
+
+        <adapter>
+          <id> 4 </id>
+          <messages>
+            <message>
+              <id> 1 </id>
+              <type> 0 </type>
+              <name> add object </name>
+              <description> add a special object into the module </description>
+            </message>
+          </messages>
+        </adapter>
+      </conf>
+    </module>
+    
+  </modules>
+
+</learning>

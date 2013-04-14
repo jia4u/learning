@@ -12,15 +12,18 @@
 #include "int.h"
 #include "xml_conf.h"
 
-/// every module should inherit this class
+/// every module should inherit from this class
 class module {
 public:
+
+  virtual ~module(){}
+
   /// a module may contain many resources, such as functions,
   /// objects, datas .et. others can get these resources by
   /// calling this member function
   virtual void* get_resource( uint64 res_id ) = 0;
 
-  /// a module may depend on one or many other modules, it is
+  /// a module may depend on one or more other modules, it is
   /// defined in module loading script. when the module loader
   /// loads the special module, it would call this member
   /// function to satisfy the dependence
@@ -31,6 +34,8 @@ public:
   /// works
   virtual long start() = 0;
 
+  virtual long pause() = 0;
+
   /// when a stop command is recieved by the module loader, it
   /// would call this member function of the specified module
   /// when the system is going down, all modules would be called
@@ -38,6 +43,6 @@ public:
 };
 
 /// every module should implement this function
-extern module* init_module( const xml_tree *root );
+typedef module* (*init_module)( const xml_tree *root );
 
 #endif

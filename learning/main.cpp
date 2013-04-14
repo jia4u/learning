@@ -8,7 +8,6 @@
 
 #include <iostream>
 #include "items.h"
-#include "bus.h"
 
 int main(int argc, const char * argv[])
 {
