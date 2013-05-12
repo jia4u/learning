@@ -1,0 +1,8 @@
+ffffffffffffffffffffffffffffffff 3d526573e4bf0b52d2a5ed7707e12193 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib
+00000000516aa51f00000000000003e0 894ccecd8c47582686000396d267e923 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.o
+00000000516a566e0000000000000474 308f32401b7de6c9cb400f919703e9af ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.o
+00000000516a566e00000000000002f4 d0de1cfcbf71e583d5e7ad400fefdd34 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.o
+00000000516a566e0000000000000234 71c3005edbc6980bfb127149f6fb88c7 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.o
+00000000516a566e000000000000027f 1ac3d8069979b7028888ac64645ba005 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.o
+0000000000013c0900000000000005df f3add438f3027f6775ef7fef524b6390 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.o
+00000000516ba74500000000000004a3 644255ea0a659c3ad4be4bb525fb6982 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.o

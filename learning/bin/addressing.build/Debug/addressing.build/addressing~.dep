@@ -1,0 +1,7 @@
+ffffffffffffffffffffffffffffffff 069b465642f2db40e5dff7c6ae867c61 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylib
+000000000000019900000000000003ff cffd0ac97c15f83725ae2ea4d3d80db9 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.o
+00000000517ad19b00000000000001d4 963c7b000db9484b90f91683df0ea7a7 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.o
+00000000517acfad0000000000000177 2a490f870bb54f49650f28d20e8f8701 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.o
+0000000051832eeb000000000000023e 58574f4ff3585ee29aa4802aa7792df1 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.o
+000000005189d76d00000000000000d7 d07fad467b25cf0870f30e5873f63c12 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.o
+00000000517acedc00000000000000a1 dce6237480310237e692a3d0f2592f13 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.o

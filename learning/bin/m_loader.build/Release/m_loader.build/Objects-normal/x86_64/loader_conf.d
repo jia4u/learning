@@ -1,0 +1,9 @@
+dependencies: \
+  /Users/losor/Documents/project/learning/learning/module/m_loader/loader_conf.cpp \
+  /Users/losor/Documents/project/learning/learning/module/m_loader/loader_conf.h \
+  /Users/losor/Documents/project/learning/learning/module/m_loader/module_manager.h \
+  /Users/losor/Documents/project/learning/learning/module/m_loader/module_info.h \
+  /Users/losor/Documents/project/learning/learning/include/module.h \
+  /Users/losor/Documents/project/learning/learning/include/int.h \
+  /Users/losor/Documents/project/learning/learning/include/xml_conf.h \
+  /Users/losor/Documents/project/learning/learning/include/../ext/rapidxml/rapidxml.h

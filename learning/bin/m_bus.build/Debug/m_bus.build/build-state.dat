@@ -1,0 +1,344 @@
+Tm_bus
+v5
+r1
+cCheck dependencies
+cCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.o /Users/losor/Documents/project/learning/learning/module/m_bus/bus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.o /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.o /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.o /Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.o /Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.o /Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.o /Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000516E918000000000000000AA
+t1366200704
+s170
+
+N/Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib
+t1367001148
+s84440
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.o
+t1367001148
+s94624
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.o
+t1367001148
+s51628
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.o
+t1367001148
+s144152
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.LinkFileList
+c00000000516D2B25000000000000033C
+t1366108965
+s828
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.o
+t1367001148
+s62636
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.o
+t1367001148
+s71760
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.o
+t1366108966
+s109840
+
+N/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.o
+t1366108966
+s151300
+
+N/Users/losor/Documents/project/learning/learning/include/../ext/rapidxml/rapidxml.h
+c00000000514F236E000000000001CE45
+t1364140910
+s118341
+
+N/Users/losor/Documents/project/learning/learning/include/../lib/object/cluster.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/losor/Documents/project/learning/learning/include/../lib/object/fact.h
+c00000000516FDD9E000000000000010A
+t1366285726
+s266
+
+N/Users/losor/Documents/project/learning/learning/include/../lib/object/language.h
+c00000000514D9ECC0000000000000109
+t1364041420
+s265
+
+N/Users/losor/Documents/project/learning/learning/include/../lib/object/muster.h
+c00000000516FDD040000000000000192
+t1366285572
+s402
+
+N/Users/losor/Documents/project/learning/learning/include/../lib/object/object.h
+c00000000517261A20000000000000233
+t1366450594
+s563
+
+N/Users/losor/Documents/project/learning/learning/include/../lib/object/rule.h
+c00000000514D9ED6000000000000010F
+t1364041430
+s271
+
+N/Users/losor/Documents/project/learning/learning/include/../lib/object/status.h
+c00000000514DB3A4000000000000014F
+t1364046756
+s335
+
+N/Users/losor/Documents/project/learning/learning/include/bus_compatible.h
+c00000000515311EB00000000000001FB
+t1364398571
+s507
+
+N/Users/losor/Documents/project/learning/learning/include/debug.h
+c00000000516D314700000000000000E5
+t1366110535
+s229
+
+N/Users/losor/Documents/project/learning/learning/include/err_common.h
+c00000000516A89AC000000000000030F
+t1365936556
+s783
+
+N/Users/losor/Documents/project/learning/learning/include/event.h
+c00000000516FF3530000000000000154
+t1366291283
+s340
+
+N/Users/losor/Documents/project/learning/learning/include/int.h
+c00000000514EFE010000000000000273
+t1364131329
+s627
+
+N/Users/losor/Documents/project/learning/learning/include/items.h
+c00000000516FDD59000000000000017B
+t1366285657
+s379
+
+N/Users/losor/Documents/project/learning/learning/include/module.h
+c00000000516AA575000000000000054A
+t1365943669
+s1354
+
+N/Users/losor/Documents/project/learning/learning/include/xml_conf.h
+c0000000051530E6B0000000000000144
+t1364397675
+s324
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/../message/message.h
+c00000000516A566E000000000000020D
+t1365923438
+s525
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/../message/message_manager.h
+c00000000516A566E00000000000001D8
+t1365923438
+s472
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp
+c00000000516BA74500000000000004A3
+t1366009669
+s1187
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.h
+c00000000516A566E0000000000000335
+t1365923438
+s821
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp
+c00000000516D34CD000000000000040D
+t1366111437
+s1037
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.h
+c00000000516A566E00000000000001E1
+t1365923438
+s481
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/bus.cpp
+c00000000516BA5A800000000000005FF
+t1366009256
+s1535
+i"bus.h"
+i"conf/bus_conf.h"
+i"errdef.h"
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/bus.h
+c00000000516A99A1000000000000031C
+t1365940641
+s796
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp
+c00000000516A566E000000000000027F
+t1365923438
+s639
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.h
+c00000000516A566E0000000000000185
+t1365923438
+s389
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp
+c00000000516A566E0000000000000234
+t1365923438
+s564
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.h
+c00000000516A566E0000000000000161
+t1365923438
+s353
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cpp
+c00000000516A566E0000000000000474
+t1365923438
+s1140
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.h
+c00000000516A566E00000000000001DC
+t1365923438
+s476
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/errdef.h
+c00000000516A566E000000000000025D
+t1365923438
+s605
+
+N/Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cpp
+c00000000516A566E00000000000002F4
+t1365923438
+s756
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/module/m_bus/bus.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa9bca5c77e3ab741^2a3aa6c77e3ab741^---0#1#0#--18"Check dependencies36"26B57BEE-1230-49D3-BD24-9F4806467169-
+
+CCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.o /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388693948.203537
+e388693948.724218
+r1
+xCompileC
+x/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.o
+x/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp6b4434bcff2ab741^1b65b9bcff2ab741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp0000000000000000^2625"CompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.o adapter/adapter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.dia -c /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter.cpp -o /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter.o36"DB64FA62-F3E3-4731-8E9D-78C5E72319A8-
+
+CCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.o /Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388693948.207269
+e388693948.739151
+r1
+xCompileC
+x/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.o
+x/Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp202635bcff2ab741^bd38bdbcff2ab741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp0000000000000000^2649"CompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.o conf/adapter_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.dia -c /Users/losor/Documents/project/learning/learning/module/m_bus/conf/adapter_conf.cpp -o /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_conf.o36"26DF24AE-E89A-48D5-BEBC-738F506F0231-
+
+CCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.o /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388693948.203527
+e388693948.770239
+r1
+xCompileC
+x/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.o
+x/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp894134bcff2ab741^f92ec5bcff2ab741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp0000000000000000^2673"CompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.o adapter/adapter_manager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.dia -c /Users/losor/Documents/project/learning/learning/module/m_bus/adapter/adapter_manager.cpp -o /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/adapter_manager.o36"13EC0DC1-4088-471F-BA96-D74447D89BF7-
+
+CCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.o /Users/losor/Documents/project/learning/learning/module/m_bus/bus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388693948.203514
+e388693948.710835
+r1
+xCompileC
+x/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.o
+x/Users/losor/Documents/project/learning/learning/module/m_bus/bus.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/losor/Documents/project/learning/learning/module/m_bus/bus.cppea4234bcff2ab741^da1eb9bcff2ab741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/losor/Documents/project/learning/learning/module/m_bus/bus.cpp0000000000000000^2585"CompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.o bus.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.dia -c /Users/losor/Documents/project/learning/learning/module/m_bus/bus.cpp -o /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.o36"8662B50E-20E1-4FB2-B774-D3FF99F0B669-
+
+CCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.o /Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s388693948.341479
+e388693948.738809
+r1
+xCompileC
+x/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.o
+x/Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp2b8a57bcff2ab741^c922bdbcff2ab741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp0000000000000000^2625"CompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.o conf/bus_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.dia -c /Users/losor/Documents/project/learning/learning/module/m_bus/conf/bus_conf.cpp -o /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus_conf.o36"6232FF82-522D-40B4-9D2E-708A059FB523-
+
+CCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.o /Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387801765.819069
+e387801766.409717
+r1
+xCompileC
+x/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.o
+x/Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cppc1cad1a5621db741^f6ed68a6621db741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cpp0000000000000000^2649"CompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.o conf/message_conf.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.dia -c /Users/losor/Documents/project/learning/learning/module/m_bus/conf/message_conf.cpp -o /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_conf.o36"6FCF27AC-7BFD-4FF5-A6DA-719C3A890FD6-
+
+CCompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.o /Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387801765.817996
+e387801766.399237
+r1
+xCompileC
+x/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.o
+x/Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cppa088d1a5621db741^da3866a6621db741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cpp0000000000000000^2673"CompileC /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.o message/message_manager.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/bus-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.dia -c /Users/losor/Documents/project/learning/learning/module/m_bus/message/message_manager.cpp -o /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/message_manager.o36"7CFC482A-09F6-4B76-9756-63C23276719A-
+
+CLd /Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib normal x86_64
+s388693948.777326
+e388693948.797232
+r1
+xLd
+x/Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Link /Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib3b1ac7bcff2ab741^9817ccbcff2ab741^---0#0#0#--941"Ld /Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib normal x86_64    cd /Users/losor/Documents/project/learning/learning/module/m_bus    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/losor/Documents/project/learning/learning/bin/Debug -F/Users/losor/Documents/project/learning/learning/bin/Debug -filelist /Users/losor/Documents/project/learning/learning/bin/m_bus.build/Debug/m_bus.build/Objects-normal/x86_64/bus.LinkFileList -install_name /Users/losor/Documents/project/learning/learning/bin/libbus.dylib -mmacosx-version-min=10.8 -stdlib=libc++ -single_module -compatibility_version 1 -current_version 1 -o /Users/losor/Documents/project/learning/learning/bin/Debug/libbus.dylib36"C96E7E80-CF6E-4674-B721-C6A266B2F1BA-
+

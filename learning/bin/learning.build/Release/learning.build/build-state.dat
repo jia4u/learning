@@ -1,0 +1,140 @@
+Tlearning
+v5
+r1
+cCheck dependencies
+cCompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.o /Users/losor/Documents/project/learning/learning/ui/cmd.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.o /Users/losor/Documents/project/learning/learning/ui/loader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.o /Users/losor/Documents/project/learning/learning/ui/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/losor/Documents/project/learning/learning/bin/Release/learning normal x86_64
+cGenerateDSYMFile /Users/losor/Documents/project/learning/learning/bin/Release/learning.dSYM /Users/losor/Documents/project/learning/learning/bin/Release/learning
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000516E918000000000000000AA
+t1366200704
+s170
+
+N/Users/losor/Documents/project/learning/learning/bin/Release/learning
+t2
+s0
+
+N/Users/losor/Documents/project/learning/learning/bin/Release/learning.dSYM
+t2
+s0
+
+N/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.o
+t2
+s0
+
+N/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/learning.LinkFileList
+c000000005189D9AD0000000000000169
+t1367988653
+s361
+
+N/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.o
+t2
+s0
+
+N/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/losor/Documents/project/learning/learning/include/err_common.h
+c00000000516A89AC000000000000030F
+t1365936556
+s783
+
+N/Users/losor/Documents/project/learning/learning/ui/cmd.cpp
+c00000000516A900E0000000000000179
+t1365938190
+s377
+i"cmd.h"
+i"err_common.h"
+i<iostream>
+i<string>
+
+N/Users/losor/Documents/project/learning/learning/ui/cmd.h
+c00000000516A8F7E000000000000011F
+t1365938046
+s287
+
+N/Users/losor/Documents/project/learning/learning/ui/loader.cpp
+c00000000516D31A200000000000005F1
+t1366110626
+s1521
+
+N/Users/losor/Documents/project/learning/learning/ui/main.cpp
+c00000000516A932B0000000000000416
+t1365938987
+s1046
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/ui/cmd.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/ui/loader.cpp
+r0
+
+CBuild AST from /Users/losor/Documents/project/learning/learning/ui/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd09d082d113ab741^228d122d113ab741^---0#1#0#--18"Check dependencies36"D1A4F921-E750-45EB-802F-5EC8EE194ED5-
+
+CCompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.o /Users/losor/Documents/project/learning/learning/ui/cmd.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389681453.074436
+e389681453.861521
+r1
+xCompileC
+xlearning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.o
+x/Users/losor/Documents/project/learning/learning/ui/cmd.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/losor/Documents/project/learning/learning/ui/cmd.cpp4d2d132d113ab741^e128e92d113ab741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/losor/Documents/project/learning/learning/ui/cmd.cpp0000000000000000^2859"CompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.o learning/ui/cmd.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Release -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.dia -c /Users/losor/Documents/project/learning/learning/ui/cmd.cpp -o /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/cmd.o36"FAF74B13-42DA-4DB6-80E1-85CF3E7CCD0B-
+
+CCompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.o /Users/losor/Documents/project/learning/learning/ui/loader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389681453.074486
+e389681453.630924
+r1
+xCompileC
+xlearning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.o
+x/Users/losor/Documents/project/learning/learning/ui/loader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/losor/Documents/project/learning/learning/ui/loader.cpp6a2e132d113ab741^8eb1bf2d113ab741^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/losor/Documents/project/learning/learning/ui/loader.cpp0000000000000000^2877"CompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.o learning/ui/loader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Release -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.dia -c /Users/losor/Documents/project/learning/learning/ui/loader.cpp -o /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/loader.o36"68C5C2C6-30C9-432E-8545-939510C8F389-
+
+CCompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.o /Users/losor/Documents/project/learning/learning/ui/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s389681453.074502
+e389681454.396790
+r1
+xCompileC
+xlearning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.o
+x/Users/losor/Documents/project/learning/learning/ui/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/losor/Documents/project/learning/learning/ui/main.cpp7b2e132d113ab741^c497652e113ab741^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/losor/Documents/project/learning/learning/ui/main.cpp0000000000000000^2865"CompileC learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.o learning/ui/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/learning-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Release -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.dia -c /Users/losor/Documents/project/learning/learning/ui/main.cpp -o /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/main.o36"76470298-4549-4301-9A8B-6E5A1EC71407-
+
+CGenerateDSYMFile /Users/losor/Documents/project/learning/learning/bin/Release/learning.dSYM /Users/losor/Documents/project/learning/learning/bin/Release/learning
+s389681454.428247
+e389681454.447243
+r1
+xGenerateDSYMFile
+x/Users/losor/Documents/project/learning/learning/bin/Release/learning.dSYM
+x/Users/losor/Documents/project/learning/learning/bin/Release/learning
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Generate /Users/losor/Documents/project/learning/learning/bin/Release/learning.dSYM4ab36d2e113ab741^9082772e113ab741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/losor/Documents/project/learning/learning/bin/Release/learning.dSYM000000000080d041^377"GenerateDSYMFile learning/bin/Release/learning.dSYM learning/bin/Release/learning    cd /Users/losor/Documents/project/learning    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/losor/Documents/project/learning/learning/bin/Release/learning -o /Users/losor/Documents/project/learning/learning/bin/Release/learning.dSYM36"00D1C5EE-92C6-433B-B490-6B6AD1121485-
+
+CLd /Users/losor/Documents/project/learning/learning/bin/Release/learning normal x86_64
+s389681454.403660
+e389681454.421326
+r1
+xLd
+x/Users/losor/Documents/project/learning/learning/bin/Release/learning
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Link /Users/losor/Documents/project/learning/learning/bin/Release/learning2c67672e113ab741^05dc6b2e113ab741^---0#0#0#--813"Ld learning/bin/Release/learning normal x86_64    cd /Users/losor/Documents/project/learning    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/losor/Documents/project/learning/learning/bin/Release -L/Users/losor/Documents/project/learning/learning/bin/Release -F/Users/losor/Documents/project/learning/learning/bin/Release -filelist /Users/losor/Documents/project/learning/learning/bin/learning.build/Release/learning.build/Objects-normal/x86_64/learning.LinkFileList -mmacosx-version-min=10.8 -lobject -stdlib=libc++ -o /Users/losor/Documents/project/learning/learning/bin/Release/learning36"0164C424-AB50-487B-ABFB-1A80A84A52BD-
+

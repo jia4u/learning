@@ -1,0 +1,5 @@
+ffffffffffffffffffffffffffffffff e7fc9897a81a6b959b955ef57bb93554 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/Debug/libloader.dylib
+00000000516aa2b700000000000002ee 2932d15ba7eb1b0d019c05138dc439e6 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_loader.build/Debug/m_loader.build/Objects-normal/x86_64/module_info.o
+00000000516a82630000000000000460 f54f3b8281e5634d7f8d27b78e23de53 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_loader.build/Debug/m_loader.build/Objects-normal/x86_64/module_manager.o
+00000000516a9fc400000000000007ea c85205bc13e5efe7a1c14855d10a29a1 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_loader.build/Debug/m_loader.build/Objects-normal/x86_64/loader.o
+000000000008620500000000000007a7 ffca731f3ec4f69dad8fef96b271fb24 ffffffffffffffffffffffffffffffff 0 /Users/losor/Documents/project/learning/learning/bin/m_loader.build/Debug/m_loader.build/Objects-normal/x86_64/loader_conf.o
