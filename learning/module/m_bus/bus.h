@@ -34,6 +34,4 @@ public:
 
 };
 
-module* init_bus( const xml_tree *root );
-
 #endif

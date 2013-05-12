@@ -66,3 +66,4 @@ long adapter::push_response( const event &response, const event &src )
 
   return E_BUS_ADAPTER_HAS_NO_INSTANCE;
 }
+

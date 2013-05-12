@@ -28,6 +28,7 @@ module_manager* loader_conf::load_modules_from_conf( xml_tree *root )
       module->finish_load();
       mgr->add_module( info->uuid, module );
     }
+    tmp = tmp->next_sibling();
   }
 
   return mgr;
@@ -41,17 +42,17 @@ module_load_info* loader_conf::load_module_from_conf( xml_tree *root )
 
   tmp = root->first_node();
   while ( tmp != NULL ) {
-    if ( strcmp( tmp->name(), "name" ) )
+    if ( strcmp( tmp->name(), "name" ) == 0 )
       info->name = tmp->value();
-    else if ( strcmp( tmp->name(), "id" ) )
+    else if ( strcmp( tmp->name(), "id" ) == 0 )
       info->uuid = atol( tmp->value() );
-    else if ( strcmp( tmp->name(), "binary" ) )
+    else if ( strcmp( tmp->name(), "binary" ) == 0 )
       info->bin_path = tmp->value();
-    else if ( strcmp( tmp->name(), "init" ) )
+    else if ( strcmp( tmp->name(), "init" ) == 0 )
       info->func_init = tmp->value();
-    else if ( strcmp( tmp->name(), "depend" ) )
+    else if ( strcmp( tmp->name(), "depend" ) == 0 )
       info->depend.push_back( atol( tmp->value() ) );
-    else if ( strcmp( tmp->name(), "conf" ) )
+    else if ( strcmp( tmp->name(), "conf" ) == 0 )
       info->conf = tmp;
     
     tmp = tmp->next_sibling();

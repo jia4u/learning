@@ -18,5 +18,6 @@ const long E_MODULE_EXISTED                       = 4;
 const long E_LOAD_LIBRARY                         = 5;
 const long E_LOAD_FUNCTION                        = 6;
 const long E_CALL_INIT_MODULE                     = 7;
-
+const long E_MODULE_START_FAIL                    = 8;
+const long E_ALLOCATE                             = 9;
 #endif

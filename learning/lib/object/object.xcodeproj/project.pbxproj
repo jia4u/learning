@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94340556171A9B8300417095 /* cluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 9434054F171A9B8300417095 /* cluster.h */; };
+		94340556171A9B8300417095 /* muster.h in Headers */ = {isa = PBXBuildFile; fileRef = 9434054F171A9B8300417095 /* muster.h */; };
 		94340557171A9B8300417095 /* fact.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340550171A9B8300417095 /* fact.h */; };
 		94340558171A9B8300417095 /* language.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340551171A9B8300417095 /* language.h */; };
 		94340559171A9B8300417095 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94340552171A9B8300417095 /* object.cpp */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		94340524171A9A6300417095 /* libobject.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libobject.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		9434054F171A9B8300417095 /* cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cluster.h; sourceTree = "<group>"; };
+		9434054F171A9B8300417095 /* muster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = muster.h; sourceTree = "<group>"; };
 		94340550171A9B8300417095 /* fact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fact.h; sourceTree = "<group>"; };
 		94340551171A9B8300417095 /* language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = language.h; sourceTree = "<group>"; };
 		94340552171A9B8300417095 /* object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = object.cpp; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		9434054E171A9B7500417095 /* object */ = {
 			isa = PBXGroup;
 			children = (
-				9434054F171A9B8300417095 /* cluster.h */,
+				9434054F171A9B8300417095 /* muster.h */,
 				94340550171A9B8300417095 /* fact.h */,
 				94340551171A9B8300417095 /* language.h */,
 				94340552171A9B8300417095 /* object.cpp */,
@@ -75,7 +75,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94340556171A9B8300417095 /* cluster.h in Headers */,
+				94340556171A9B8300417095 /* muster.h in Headers */,
 				94340557171A9B8300417095 /* fact.h in Headers */,
 				94340558171A9B8300417095 /* language.h in Headers */,
 				9434055A171A9B8300417095 /* object.h in Headers */,
@@ -204,6 +204,7 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
@@ -214,6 +215,7 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
@@ -238,6 +240,7 @@
 				9434052A171A9A6300417095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

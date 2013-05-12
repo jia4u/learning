@@ -9,12 +9,12 @@
 #ifndef learning_fact_h
 #define learning_fact_h
 
-#include "cluster.h"
+#include "muster.h"
 
 class fact : public object {
 public:
   object *pred;
-  cluster **obj;
+  muster *obj;
 };
 
 #endif

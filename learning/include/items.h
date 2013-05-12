@@ -14,6 +14,6 @@
 #include "../lib/object/rule.h"
 #include "../lib/object/fact.h"
 #include "../lib/object/language.h"
-#include "../lib/object/cluster.h"
+#include "../lib/object/muster.h"
 
 #endif

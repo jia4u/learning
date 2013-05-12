@@ -43,6 +43,6 @@ public:
 };
 
 /// every module should implement this function
-typedef module* (*init_module)( const xml_tree *root );
+extern "C" typedef module* (* init_module)( const xml_tree *root );
 
 #endif

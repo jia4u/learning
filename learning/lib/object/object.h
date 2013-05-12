@@ -18,6 +18,7 @@ enum item_type {
   IT_FACT           = 1 << 3,
   IT_LANGUAGE       = 1 << 4,
   IT_INSTRUCTION    = 1 << 5,
+  IT_MUSTER         = 1 << 6,
 };
 
 class object {

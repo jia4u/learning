@@ -9,21 +9,27 @@
 #ifndef learning_loader_h
 #define learning_loader_h
 
-#include "loader_conf.h"
+#include "module.h"
+#include "module_manager.h"
 
-class module_loader {
+class module_loader : public module {
   module_manager *m_module;
 
 public:
   virtual ~module_loader();
 
-  virtual long load( xml_tree *root );
+  void set_manager( module_manager *mgr );
+
+  virtual void* get_resource( uint64 res_id );
+
+  virtual void set_depend( module *depend, uint64 module_id );
+
   virtual long start();
+
   virtual long pause();
+
   virtual long stop();
 
-  virtual long pause( uint64 module_id );
-  virtual long stop( uint64 module_id );
 };
 
 #endif

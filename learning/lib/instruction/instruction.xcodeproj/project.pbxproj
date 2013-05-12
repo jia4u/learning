@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9434054B171A9B6E00417095 /* addressing.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340548171A9B6E00417095 /* addressing.h */; };
-		9434054C171A9B6E00417095 /* code.h in Headers */ = {isa = PBXBuildFile; fileRef = 94340549171A9B6E00417095 /* code.h */; };
+		941E25A3172250FB005E6576 /* instr_find.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 941E25A2172250FB005E6576 /* instr_find.cpp */; };
 		9434054D171A9B6E00417095 /* instruction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9434054A171A9B6E00417095 /* instruction.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		941E25A1172250D4005E6576 /* instr_find.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = instr_find.h; sourceTree = "<group>"; };
+		941E25A2172250FB005E6576 /* instr_find.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = instr_find.cpp; sourceTree = "<group>"; };
 		9434053A171A9ADB00417095 /* libinstruction.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libinstruction.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		94340548171A9B6E00417095 /* addressing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addressing.h; sourceTree = "<group>"; };
-		94340549171A9B6E00417095 /* code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = code.h; sourceTree = "<group>"; };
 		9434054A171A9B6E00417095 /* instruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instruction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,9 +48,9 @@
 		94340547171A9B5E00417095 /* instruction */ = {
 			isa = PBXGroup;
 			children = (
-				94340548171A9B6E00417095 /* addressing.h */,
-				94340549171A9B6E00417095 /* code.h */,
 				9434054A171A9B6E00417095 /* instruction.h */,
+				941E25A1172250D4005E6576 /* instr_find.h */,
+				941E25A2172250FB005E6576 /* instr_find.cpp */,
 			);
 			name = instruction;
 			sourceTree = "<group>";
@@ -63,8 +62,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9434054B171A9B6E00417095 /* addressing.h in Headers */,
-				9434054C171A9B6E00417095 /* code.h in Headers */,
 				9434054D171A9B6E00417095 /* instruction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941E25A3172250FB005E6576 /* instr_find.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,6 +186,7 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
@@ -198,6 +197,7 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
@@ -222,6 +222,7 @@
 				94340540171A9ADB00417095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

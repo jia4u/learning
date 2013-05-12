@@ -50,3 +50,12 @@ module_info* module_manager::query_module( uint64 id )
   return m_module[id];
 }
 
+module_manager::const_iterator module_manager::begin() const
+{
+  return m_module.begin();
+}
+
+module_manager::const_iterator module_manager::end() const
+{
+  return m_module.end();
+}

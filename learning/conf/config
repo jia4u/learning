@@ -1,12 +1,16 @@
 <learning>
+  <loader>
+    <binary>libloader.dylib</binary>
+    <init>init_module_loader</init>
+  </loader>
 
   <modules>
 
     <module>
       <name> bus </name>
       <id> 1 </id>
-      <binary> lib/bus.mylib </binary>
-      <init> init_bus </init>
+      <binary>libbus.dylib</binary>
+      <init>init_bus</init>
       <depend> 3 </depend>
       <depend> 4 </depend>
       <conf>

@@ -1,0 +1,104 @@
+expression      :- predicate ( expression-list )
+expression      :- constant
+
+constant        :- "number"
+constant        :- "string"
+constant        :- "all"
+constant        :- "current"
+constant        :- "rest"
+
+predicate       :-
+muster operation:
+        object  <- choose_if      ( expression, expression )
+        object  <- n_of           ( expression, expression )
+        object  <- nth_of         ( expression, expression )
+        object  <- intersect      ( expression, expression )
+        object  <- union          ( expression, expression )
+        object  <- diff           ( expression, expression )
+        number  <- count          ( expression )
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+attribute operation:
+        number  <- uuid           ( expression )
+        number  <- creator        ( expression )
+        number  <- nref           ( expression )
+        number  <- nvisit         ( expression )
+        object  <- child          ( expression )
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+numeric operation
+        number  <- add            ( expression, expression )
+        number  <- sub            ( expression, expression )
+        number  <- mul            ( expression, expression )
+        number  <- div            ( expression, expression )
+        number  <- mod            ( expression, expression )
+        number  <- negative       ( expression, expression )
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+binary operation
+        number  <- and_b          ( expression, expression )
+        number  <- or_b           ( expression, expression )
+        number  <- not_b          ( expression, expression )
+        number  <- xor            ( expression, expression )
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+logical operation
+        boolean <- eq             ( expression, expression )
+        boolean <- ne             ( expression, expression )
+        boolean <- gt             ( expression, expression )
+        boolean <- ge             ( expression, expression )
+        boolean <- lt             ( expression, expression )
+        boolean <- le             ( expression, expression )
+        boolean <- and            ( expression, expression )
+        boolean <- or             ( expression, expression )
+        boolean <- not            ( expression )
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+functional operation
+        boolean <- exist          ( expression, expression )
+        boolean <- like           ( expression, expression )
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+examples:
+        choose_if (
+          all,
+          equal (
+            uuid (
+              candicate
+              ),
+            45
+            )
+          )
+––––––––––––––––––––––––––––––––––
+        n_of (
+          choose_if (
+            all,
+            exist (
+              child (
+                candicate
+                ),
+              not (
+                equal (
+                  nref (
+                    candidate
+                    ),
+                  0
+                  )
+                )
+              )
+            ),
+          1
+          )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

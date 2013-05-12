@@ -8,14 +8,18 @@
 
 #include "adapter_manager.h"
 #include "errdef.h"
+#include "debug.h"
 
 adapter_manager::~adapter_manager()
 {
   std::map<uint64, adapter*>::iterator i;
 
-  while ( m_adapter.size() > 0 )
-    remove_adapter( m_adapter[0]->uuid() );
-  
+  while ( m_adapter.size() > 0 ) {
+    if ( m_adapter.begin()->second != NULL )
+      remove_adapter( m_adapter.begin()->second->uuid() );
+    else
+      m_adapter.erase( m_adapter.begin() );
+  }
 }
 
 long adapter_manager::add_adapter( adapter *adapter )

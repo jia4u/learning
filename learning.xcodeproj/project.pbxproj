@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		944B9B7416F4430800FEF4B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 944B9B7316F4430800FEF4B0 /* main.cpp */; };
-		944B9B7616F4430800FEF4B0 /* learning.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 944B9B7516F4430800FEF4B0 /* learning.1 */; };
+		9447EED3173A0D2C0002768F /* cmd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9447EECD173A0D2C0002768F /* cmd.cpp */; };
+		9447EED4173A0D2C0002768F /* loader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9447EED0173A0D2C0002768F /* loader.cpp */; };
+		9447EED5173A0D2C0002768F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9447EED2173A0D2C0002768F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,20 @@
 			remoteGlobalIDString = 9434053A171A9ADB00417095;
 			remoteInfo = instruction;
 		};
+		9447EEEA173A0F820002768F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9447EEE6173A0F820002768F /* addressing.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9447EEDF173A0F820002768F;
+			remoteInfo = addressing;
+		};
+		9447EF4A173A9A2B0002768F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9447EF46173A9A2B0002768F /* algorithm.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9447EF3F173A9A2B0002768F;
+			remoteInfo = algorithm;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,7 +64,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				944B9B7616F4430800FEF4B0 /* learning.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -63,6 +77,7 @@
 		940E624C16FF5A0600F001D6 /* rapidxml_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rapidxml_utils.h; path = learning/ext/rapidxml/rapidxml_utils.h; sourceTree = "<group>"; };
 		940E624D16FF5A0600F001D6 /* rapidxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rapidxml.h; path = learning/ext/rapidxml/rapidxml.h; sourceTree = "<group>"; };
 		94161F3E16FDC1590067884C /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = learning/include/items.h; sourceTree = "<group>"; };
+		9418AA09171D68A4006457E5 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = debug.h; path = learning/include/debug.h; sourceTree = "<group>"; };
 		941FA62716F5B9FA0008C52A /* module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = module.h; path = learning/include/module.h; sourceTree = "<group>"; };
 		94340498171A839900417095 /* assertion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = assertion.h; path = learning/include/assertion.h; sourceTree = "<group>"; };
 		943404C0171A8C6700417095 /* m_loader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = m_loader.xcodeproj; path = learning/module/m_loader/m_loader.xcodeproj; sourceTree = "<group>"; };
@@ -71,9 +86,16 @@
 		9434052B171A9A6300417095 /* object.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = object.xcodeproj; path = learning/lib/object/object.xcodeproj; sourceTree = "<group>"; };
 		94340541171A9ADB00417095 /* instruction.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = instruction.xcodeproj; path = learning/lib/instruction/instruction.xcodeproj; sourceTree = "<group>"; };
 		94373EF61701BF26009887C3 /* bus_compatible.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bus_compatible.h; path = learning/include/bus_compatible.h; sourceTree = "<group>"; };
+		9447EECD173A0D2C0002768F /* cmd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cmd.cpp; path = ui/cmd.cpp; sourceTree = "<group>"; };
+		9447EECE173A0D2C0002768F /* cmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cmd.h; path = ui/cmd.h; sourceTree = "<group>"; };
+		9447EECF173A0D2C0002768F /* learning.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; name = learning.1; path = ui/learning.1; sourceTree = "<group>"; };
+		9447EED0173A0D2C0002768F /* loader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = loader.cpp; path = ui/loader.cpp; sourceTree = "<group>"; };
+		9447EED1173A0D2C0002768F /* loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loader.h; path = ui/loader.h; sourceTree = "<group>"; };
+		9447EED2173A0D2C0002768F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ui/main.cpp; sourceTree = "<group>"; };
+		9447EEE6173A0F820002768F /* addressing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = addressing.xcodeproj; path = learning/lib/addressing/addressing.xcodeproj; sourceTree = "<group>"; };
+		9447EF05173A2E430002768F /* addressing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = addressing; path = learning/doc/addressing; sourceTree = "<group>"; };
+		9447EF46173A9A2B0002768F /* algorithm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = algorithm.xcodeproj; path = learning/lib/algorithm/algorithm.xcodeproj; sourceTree = "<group>"; };
 		944B9B7016F4430800FEF4B0 /* learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning; sourceTree = BUILT_PRODUCTS_DIR; };
-		944B9B7316F4430800FEF4B0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		944B9B7516F4430800FEF4B0 /* learning.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = learning.1; sourceTree = "<group>"; };
 		944B9B8716F4454800FEF4B0 /* int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = int.h; path = learning/include/int.h; sourceTree = "<group>"; };
 		94AEEE0717034193003CFBCD /* xml_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xml_conf.h; path = learning/include/xml_conf.h; sourceTree = "<group>"; };
 		94AEEE0D17034D11003CFBCD /* err_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = err_common.h; path = learning/include/err_common.h; sourceTree = "<group>"; };
@@ -105,7 +127,7 @@
 		943404C1171A8C6700417095 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				943404C5171A8C6800417095 /* libm_loader.dylib */,
+				943404C5171A8C6800417095 /* libloader.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +135,7 @@
 		943404E8171A8D3700417095 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				943404EC171A8D3800417095 /* libm_bus.dylib */,
+				943404EC171A8D3800417095 /* libbus.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,9 +164,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9447EEE7173A0F820002768F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9447EEEB173A0F820002768F /* libaddressing.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9447EF47173A9A2B0002768F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9447EF4B173A9A2B0002768F /* libalgorithm.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		944B9B6716F4430700FEF4B0 = {
 			isa = PBXGroup;
 			children = (
+				9447EF46173A9A2B0002768F /* algorithm.xcodeproj */,
+				9447EEE6173A0F820002768F /* addressing.xcodeproj */,
 				94340541171A9ADB00417095 /* instruction.xcodeproj */,
 				9434052B171A9A6300417095 /* object.xcodeproj */,
 				943404E7171A8D3700417095 /* m_bus.xcodeproj */,
@@ -153,7 +193,7 @@
 				944B9B8D16F4459200FEF4B0 /* doc */,
 				944B9B8C16F4458300FEF4B0 /* ext */,
 				944B9B8616F4453500FEF4B0 /* include */,
-				944B9B7216F4430800FEF4B0 /* learning */,
+				944B9B7216F4430800FEF4B0 /* ui */,
 				944B9B7116F4430800FEF4B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -166,12 +206,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		944B9B7216F4430800FEF4B0 /* learning */ = {
+		944B9B7216F4430800FEF4B0 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				944B9B7316F4430800FEF4B0 /* main.cpp */,
-				944B9B7516F4430800FEF4B0 /* learning.1 */,
+				9447EECD173A0D2C0002768F /* cmd.cpp */,
+				9447EECE173A0D2C0002768F /* cmd.h */,
+				9447EECF173A0D2C0002768F /* learning.1 */,
+				9447EED0173A0D2C0002768F /* loader.cpp */,
+				9447EED1173A0D2C0002768F /* loader.h */,
+				9447EED2173A0D2C0002768F /* main.cpp */,
 			);
+			name = ui;
 			path = learning;
 			sourceTree = "<group>";
 		};
@@ -186,6 +231,7 @@
 				94AEEE0717034193003CFBCD /* xml_conf.h */,
 				94AEEE0D17034D11003CFBCD /* err_common.h */,
 				94340498171A839900417095 /* assertion.h */,
+				9418AA09171D68A4006457E5 /* debug.h */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -201,6 +247,7 @@
 		944B9B8D16F4459200FEF4B0 /* doc */ = {
 			isa = PBXGroup;
 			children = (
+				9447EF05173A2E430002768F /* addressing */,
 			);
 			name = doc;
 			sourceTree = "<group>";
@@ -246,6 +293,14 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 9447EEE7173A0F820002768F /* Products */;
+					ProjectRef = 9447EEE6173A0F820002768F /* addressing.xcodeproj */;
+				},
+				{
+					ProductGroup = 9447EF47173A9A2B0002768F /* Products */;
+					ProjectRef = 9447EF46173A9A2B0002768F /* algorithm.xcodeproj */;
+				},
+				{
 					ProductGroup = 94340542171A9ADB00417095 /* Products */;
 					ProjectRef = 94340541171A9ADB00417095 /* instruction.xcodeproj */;
 				},
@@ -270,17 +325,17 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		943404C5171A8C6800417095 /* libm_loader.dylib */ = {
+		943404C5171A8C6800417095 /* libloader.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			path = libm_loader.dylib;
+			path = libloader.dylib;
 			remoteRef = 943404C4171A8C6800417095 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		943404EC171A8D3800417095 /* libm_bus.dylib */ = {
+		943404EC171A8D3800417095 /* libbus.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
-			path = libm_bus.dylib;
+			path = libbus.dylib;
 			remoteRef = 943404EB171A8D3800417095 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -298,6 +353,20 @@
 			remoteRef = 94340545171A9ADB00417095 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		9447EEEB173A0F820002768F /* libaddressing.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libaddressing.dylib;
+			remoteRef = 9447EEEA173A0F820002768F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9447EF4B173A9A2B0002768F /* libalgorithm.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libalgorithm.dylib;
+			remoteRef = 9447EF4A173A9A2B0002768F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,7 +374,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944B9B7416F4430800FEF4B0 /* main.cpp in Sources */,
+				9447EED3173A0D2C0002768F /* cmd.cpp in Sources */,
+				9447EED4173A0D2C0002768F /* loader.cpp in Sources */,
+				9447EED5173A0D2C0002768F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				LIBRARY_SEARCH_PATHS = "/Users/losor/Documents/project/learning/learning/bin/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-lobject";
 				PRELINK_LIBS = "";
@@ -388,6 +460,7 @@
 		944B9B7B16F4430800FEF4B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				LIBRARY_SEARCH_PATHS = "/Users/losor/Documents/project/learning/learning/bin/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-lobject";
 				PRELINK_LIBS = "";

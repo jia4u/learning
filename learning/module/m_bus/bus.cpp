@@ -85,7 +85,8 @@ long bus::push_response( const event &response, const event &src )
   return E_BUS_MODULE_NOT_FOUND;
 }
 
-module* init_bus( const xml_tree *root )
+extern "C" module* init_bus( const xml_tree *root )
 {
   return bus_loader::load_bus_from_xml( root );
 }
+
