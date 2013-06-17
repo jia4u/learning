@@ -1,429 +1,0 @@
-Taddressing
-v5
-r1
-cCheck dependencies
-cCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.o /Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.o /Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.o /Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylib normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000516E918000000000000000AA
-t1366200704
-s170
-
-N/Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylib
-t1368015852
-s24196
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.o
-t1367988888
-s1940
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.o
-t1367988888
-s61124
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.o
-t1367988888
-s4488
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.o
-t1367988888
-s61092
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.o
-t1368015852
-s7080
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.o
-t1368014282
-s7220
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.o
-t1368015852
-s7236
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.o
-t1368015852
-s8352
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.LinkFileList
-c00000000518A43EC0000000000000308
-t1368015852
-s776
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.o
-t1368015852
-s5040
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.o
-t1368015852
-s9704
-
-N/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.o
-t1368015852
-s11108
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/fact.h
-c00000000516FDD9E000000000000010A
-t1366285726
-s266
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/language.h
-c00000000514D9ECC0000000000000109
-t1364041420
-s265
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/muster.h
-c00000000516FDD040000000000000192
-t1366285572
-s402
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/object.h
-c00000000517261A20000000000000233
-t1366450594
-s563
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/rule.h
-c00000000514D9ED6000000000000010F
-t1364041430
-s271
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/status.h
-c00000000514DB3A4000000000000014F
-t1364046756
-s335
-
-N/Users/losor/Documents/project/learning/learning/include/int.h
-c00000000514EFE010000000000000273
-t1364131329
-s627
-
-N/Users/losor/Documents/project/learning/learning/include/items.h
-c00000000516FDD59000000000000017B
-t1366285657
-s379
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.cpp
-c00000000517ACEDC00000000000000A1
-t1367002844
-s161
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.h
-c00000000517AD73C00000000000002E8
-t1367004988
-s744
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.cpp
-c00000000517AD05E00000000000001DB
-t1367003230
-s475
-i"addr_cond_and.h"
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.h
-c00000000517AD1C70000000000000224
-t1367003591
-s548
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.cpp
-c0000000051832EEB000000000000023E
-t1367551723
-s574
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.h
-c00000000518A325A000000000000029A
-t1368011354
-s666
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.cpp
-c00000000517AD19B00000000000001D4
-t1367003547
-s468
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.h
-c00000000517AD1CD000000000000022A
-t1367003597
-s554
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp
-c00000000518A3DED0000000000000153
-t1368014317
-s339
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.h
-c00000000518A39F500000000000001A3
-t1368013301
-s419
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.cpp
-c00000000517ACFAD0000000000000177
-t1367003053
-s375
-i"addr_imm.h"
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cpp
-c00000000518A3EA7000000000000017D
-t1368014503
-s381
-i"addr_immediate.h"
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.h
-c00000000518A39E900000000000001B3
-t1368013289
-s435
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp
-c00000000518A3DC500000000000002F6
-t1368014277
-s758
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.h
-c00000000518A40E200000000000001FF
-t1368015074
-s511
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp
-c00000000518A3DD900000000000000FC
-t1368014297
-s252
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/addressing.h
-c00000000518A3EB60000000000000214
-t1368014518
-s532
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp
-c00000000518A473C00000000000006DA
-t1368016700
-s1754
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.h
-c00000000518A471600000000000005E6
-t1368016662
-s1510
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/expression.cpp
-c00000000518A3EF400000000000000A1
-t1368014580
-s161
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/expression.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp
-c00000000518A43B8000000000000032C
-t1368015800
-s812
-
-N/Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.h
-c00000000518A45450000000000000480
-t1368016197
-s1152
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/expression.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf9bda5c77e3ab741^4b23a6c77e3ab741^---0#1#0#--18"Check dependencies36"8E9D551E-97FF-417F-A86C-450064C64C1A-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389681688.446317
-e389681688.471654
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.cpp245e7218123ab741^ecbd7818123ab741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.cpp0000000000000000^2753"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.o addr_cond.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond.o36"B3A4D59E-5616-4D5E-8D74-159370E19347-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389681688.446305
-e389681688.698267
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.cpp9a5e7218123ab741^0ec0b218123ab741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.cpp0000000000000000^2777"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.o addr_cond_and.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_and.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_and.o36"CB94D1CE-45E6-4E49-AB9F-3024589F4790-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389681688.446347
-e389681688.476291
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.cpp0b607218123ab741^3cc17a18123ab741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.cpp0000000000000000^2807"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.o addr_cond_attr_cmp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_attr_cmp.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_attr_cmp.o36"667D3F5D-0283-416F-93D9-E38CAC24A531-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389681688.446334
-e389681688.698257
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.cpp9e617218123ab741^86c7b218123ab741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.cpp0000000000000000^2771"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.o addr_cond_or.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_cond_or.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_cond_or.o36"BB0CB9A6-8E62-4706-AA3B-C8F627E6F2E7-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389709511.651900
-e389709511.679631
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp180ba7c77e3ab741^5dfcadc77e3ab741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp0000000000000000^2765"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.o addr_direct.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_direct.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_direct.o36"BBA405D1-75DE-4832-AA7E-49DF87664838-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389707082.405934
-e389707082.431002
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.cpp5304684a753ab741^b0556e4a753ab741^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.cpp0000000000000000^2747"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.o addr_imm.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_imm.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_imm.o36"6826111A-C532-42B7-BDF2-9F679410613B-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389709511.651882
-e389709511.674349
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cppd506a7c77e3ab741^7ba1acc77e3ab741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cpp0000000000000000^2783"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.o addr_immediate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_immediate.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_immediate.o36"A1A48ADB-68BE-402B-95AD-F255F87B45ED-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.o /Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389709511.651905
-e389709511.678908
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp6808a7c77e3ab741^21ccadc77e3ab741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp0000000000000000^2777"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.o addr_indirect.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addr_indirect.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addr_indirect.o36"A6D3E3D4-4A07-4718-A87B-47334ADE5C4F-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.o /Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389709511.651896
-e389709511.673528
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp4209a7c77e3ab741^a471acc77e3ab741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp0000000000000000^2759"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.o addressing.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/addressing.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.o36"94460D6B-1262-4B7A-B149-0872C261BE5D-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.o /Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389709511.651955
-e389709511.685812
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp8d0ba7c77e3ab741^0090afc77e3ab741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp0000000000000000^2759"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.o expr_const.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/expr_const.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expr_const.o36"0B703724-4AED-401F-9E5D-A946C57FBA71-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.o /Users/losor/Documents/project/learning/learning/lib/addressing/expression.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.o /Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389709511.651913
-e389709511.677457
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.o
-x/Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp9206a7c77e3ab741^a06dadc77e3ab741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp0000000000000000^2781"CompileC /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.o expression/expression.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/addressing-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.dia -c /Users/losor/Documents/project/learning/learning/lib/addressing/expression/expression.cpp -o /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/expression.o36"6928B78E-AC3A-4803-966A-D770EC369746-
-
-CLd /Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylib normal x86_64
-s389709511.692056
-e389709511.714135
-r1
-xLd
-x/Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylib
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Link /Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylibe73ab1c77e3ab741^4f21b7c77e3ab741^---0#0#0#--981"Ld /Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylib normal x86_64    cd /Users/losor/Documents/project/learning/learning/lib/addressing    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/losor/Documents/project/learning/learning/bin/Debug -F/Users/losor/Documents/project/learning/learning/bin/Debug -filelist /Users/losor/Documents/project/learning/learning/bin/addressing.build/Debug/addressing.build/Objects-normal/x86_64/addressing.LinkFileList -install_name /Users/losor/Documents/project/learning/learning/bin/libaddressing.dylib -mmacosx-version-min=10.8 -stdlib=libc++ -single_module -compatibility_version 1 -current_version 1 -o /Users/losor/Documents/project/learning/learning/bin/Debug/libaddressing.dylib36"F6F1A81A-A886-4F50-9EF4-B169492D02B8-
-

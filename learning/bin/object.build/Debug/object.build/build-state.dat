@@ -1,71 +1,0 @@
-Tobject
-v5
-r1
-cCheck dependencies
-cCompileC /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.o /Users/losor/Documents/project/learning/learning/lib/object/object.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/losor/Documents/project/learning/learning/bin/Debug/libobject.dylib normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000516E918000000000000000AA
-t1366200704
-s170
-
-N/Users/losor/Documents/project/learning/learning/bin/Debug/libobject.dylib
-t1367001148
-s9016
-
-N/Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.LinkFileList
-c00000000516D2B250000000000000074
-t1366108965
-s116
-
-N/Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.o
-t1367001148
-s4044
-
-N/Users/losor/Documents/project/learning/learning/include/int.h
-c00000000514EFE010000000000000273
-t1364131329
-s627
-
-N/Users/losor/Documents/project/learning/learning/lib/object/object.cpp
-c00000000514DA2EB00000000000000CF
-t1364042475
-s207
-i"object.h"
-
-N/Users/losor/Documents/project/learning/learning/lib/object/object.h
-c00000000517261A20000000000000233
-t1366450594
-s563
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/object/object.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies80baa5c77e3ab741^9c33a6c77e3ab741^---0#1#0#--18"Check dependencies36"1CCD0E8B-908E-455D-BB74-BC4489012CB0-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.o /Users/losor/Documents/project/learning/learning/lib/object/object.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388693948.162652
-e388693948.345184
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.o
-x/Users/losor/Documents/project/learning/learning/lib/object/object.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/losor/Documents/project/learning/learning/lib/object/object.cpp20d429bcff2ab741^315d58bcff2ab741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/losor/Documents/project/learning/learning/lib/object/object.cpp0000000000000000^2631"CompileC /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.o object.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/object    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/object-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/object-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/object-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/object-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.dia -c /Users/losor/Documents/project/learning/learning/lib/object/object.cpp -o /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.o36"ED9F4E0E-D873-4300-8634-89B1F90098CA-
-
-CLd /Users/losor/Documents/project/learning/learning/bin/Debug/libobject.dylib normal x86_64
-s388693948.352022
-e388693948.479192
-r1
-xLd
-x/Users/losor/Documents/project/learning/learning/bin/Debug/libobject.dylib
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Link /Users/losor/Documents/project/learning/learning/bin/Debug/libobject.dylibda385abcff2ab741^4fad7abcff2ab741^---0#0#0#--953"Ld /Users/losor/Documents/project/learning/learning/bin/Debug/libobject.dylib normal x86_64    cd /Users/losor/Documents/project/learning/learning/lib/object    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/losor/Documents/project/learning/learning/bin/Debug -F/Users/losor/Documents/project/learning/learning/bin/Debug -filelist /Users/losor/Documents/project/learning/learning/bin/object.build/Debug/object.build/Objects-normal/x86_64/object.LinkFileList -install_name /Users/losor/Documents/project/learning/learning/bin/libobject.dylib -mmacosx-version-min=10.8 -stdlib=libc++ -single_module -compatibility_version 1 -current_version 1 -o /Users/losor/Documents/project/learning/learning/bin/Debug/libobject.dylib36"29E613DE-7480-46D3-9C85-E085FCE5EDAA-
-

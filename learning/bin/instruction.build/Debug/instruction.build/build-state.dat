@@ -1,357 +1,0 @@
-Tinstruction
-v5
-r1
-cCheck dependencies
-cCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.o /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/losor/Documents/project/learning/learning/bin/Debug/libinstruction.dylib normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000516E918000000000000000AA
-t1366200704
-s170
-
-N/Users/losor/Documents/project/learning/learning/bin/Debug/libinstruction.dylib
-t1367988923
-s4176
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_com.o
-t1366432138
-s8700
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond.o
-t1367003419
-s1940
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_and.o
-t1367003420
-s61124
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_attr_cmp.o
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_or.o
-t1367003456
-s61092
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_dir.o
-t1366431222
-s8744
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_imm.o
-t1367003419
-s7636
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addressing.o
-t1367003419
-s5172
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.o
-t1367988923
-s1944
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instruction.LinkFileList
-c000000005189D9B60000000000000082
-t1367988662
-s130
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/fact.h
-c00000000516FDD9E000000000000010A
-t1366285726
-s266
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/language.h
-c00000000514D9ECC0000000000000109
-t1364041420
-s265
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/muster.h
-c00000000516FDD040000000000000192
-t1366285572
-s402
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/object.h
-c00000000517261A20000000000000233
-t1366450594
-s563
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/rule.h
-c00000000514D9ED6000000000000010F
-t1364041430
-s271
-
-N/Users/losor/Documents/project/learning/learning/include/../lib/object/status.h
-c00000000514DB3A4000000000000014F
-t1364046756
-s335
-
-N/Users/losor/Documents/project/learning/learning/include/int.h
-c00000000514EFE010000000000000273
-t1364131329
-s627
-
-N/Users/losor/Documents/project/learning/learning/include/items.h
-c00000000516FDD59000000000000017B
-t1366285657
-s379
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.cpp
-c000000005172161E000000000000017A
-t1366431262
-s378
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.cpp
-c00000000517ACEDC00000000000000A1
-t1367002844
-s161
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.cpp
-c00000000517AD05E00000000000001DB
-t1367003230
-s475
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.h
-c00000000517AD1C70000000000000224
-t1367003591
-s548
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_attr_cmp.cpp
-c00000000517ADA1E0000000000000102
-t1367005726
-s258
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.cpp
-c00000000517AD19B00000000000001D4
-t1367003547
-s468
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.h
-c00000000517AD1CD000000000000022A
-t1367003597
-s554
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.cpp
-c00000000517214FB000000000000018A
-t1366430971
-s394
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.cpp
-c00000000517ACFAD0000000000000177
-t1367003053
-s375
-i"addr_imm.h"
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addressing.cpp
-c00000000517ACF8300000000000000D1
-t1367003011
-s209
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addressing.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/addressing_condition.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/code.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp
-c00000000517AC86200000000000000A4
-t1367001186
-s164
-i"instr_find.h"
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.h
-c00000000517AC84F00000000000000EE
-t1367001167
-s238
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/instruction.h
-c000000005189DAB9000000000000012F
-t1367988921
-s303
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_attr_cmp.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/addressing.cpp
-r0
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8ecea5c77e3ab741^d829a6c77e3ab741^---0#1#0#--18"Check dependencies36"937769E9-8922-4884-A476-9908366F4239-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_com.o /Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388124938.197448
-e388124938.215398
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_com.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.cppdca0320a5122b741^1024370a5122b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.cpp0000000000000000^2773"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_com.o addr_com.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_com.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_com.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addr_com.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_com.o36"665E6F89-68B2-4509-8BB7-45C54915AD2E-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond.o /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388698526.991776
-e388698527.017039
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.cpp4206fe9e112bb741^d2fd049f112bb741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.cpp0000000000000000^2779"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond.o addr_cond.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond.o36"DB2B0D07-E902-4B72-9253-72EE313FCD59-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_and.o /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388698526.991744
-e388698527.217754
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_and.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.cpp5b08fe9e112bb741^a9be379f112bb741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.cpp0000000000000000^2803"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_and.o addr_cond_and.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_and.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_and.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_and.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_and.o36"D047D183-9AC2-4D27-A7D7-6DDA0825ED16-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_attr_cmp.o /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_attr_cmp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388698526.991808
-e388698527.019702
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_attr_cmp.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_attr_cmp.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_attr_cmp.cpp9606fe9e112bb741^c43e059f112bb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_attr_cmp.cpp0000000000000000^2833"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_attr_cmp.o addr_cond_attr_cmp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_attr_cmp.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_attr_cmp.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_attr_cmp.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_attr_cmp.o36"D8B22740-BA61-4E3B-80AE-AFADA81BCD2A-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_or.o /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388698526.991765
-e388698527.223578
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_or.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.cpp7d04fe9e112bb741^363c399f112bb741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.cpp0000000000000000^2797"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_or.o addr_cond_or.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_or.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_or.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addr_cond_or.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_cond_or.o36"657034F5-29C6-4613-8ED7-864D5FC18DD1-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_dir.o /Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388124022.810533
-e388124022.828411
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_dir.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.cpp9e96cf764d22b741^b614d4764d22b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.cpp0000000000000000^2773"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_dir.o addr_dir.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_dir.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_dir.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addr_dir.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_dir.o36"666B151C-8CA2-456C-B8E8-7209595B9EE7-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_imm.o /Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388698526.991705
-e388698527.028755
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_imm.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.cpp420afe9e112bb741^a35b079f112bb741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.cpp0000000000000000^2773"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_imm.o addr_imm.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_imm.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_imm.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addr_imm.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addr_imm.o36"A9D5FEC5-9516-4E09-97FB-7BF3BDA8BA8F-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addressing.o /Users/losor/Documents/project/learning/learning/lib/instruction/addressing.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s388698526.991782
-e388698527.022432
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addressing.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/addressing.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/addressing.cppb307fe9e112bb741^1bbe059f112bb741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/addressing.cpp0000000000000000^2785"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addressing.o addressing.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addressing.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addressing.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/addressing.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/addressing.o36"CA5F279D-982D-4AE5-A562-20823314DF7F-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.o /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389681723.469179
-e389681723.485769
-r1
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cppc040783b123ab741^d55a7c3b123ab741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp0000000000000000^2785"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.o instr_find.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Debug/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Debug -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instr_find.o36"7323A193-25EA-4521-B44F-3725153B025B-
-
-CLd /Users/losor/Documents/project/learning/learning/bin/Debug/libinstruction.dylib normal x86_64
-s389681723.491893
-e389681723.510706
-r1
-xLd
-x/Users/losor/Documents/project/learning/learning/bin/Debug/libinstruction.dylib
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /Users/losor/Documents/project/learning/learning/bin/Debug/libinstruction.dylib1afc7d3b123ab741^a9bf823b123ab741^---0#0#0#--988"Ld /Users/losor/Documents/project/learning/learning/bin/Debug/libinstruction.dylib normal x86_64    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/losor/Documents/project/learning/learning/bin/Debug -F/Users/losor/Documents/project/learning/learning/bin/Debug -filelist /Users/losor/Documents/project/learning/learning/bin/instruction.build/Debug/instruction.build/Objects-normal/x86_64/instruction.LinkFileList -install_name /Users/losor/Documents/project/learning/learning/bin/libinstruction.dylib -mmacosx-version-min=10.8 -stdlib=libc++ -single_module -compatibility_version 1 -current_version 1 -o /Users/losor/Documents/project/learning/learning/bin/Debug/libinstruction.dylib36"2253718B-DF40-459C-B5A6-B19CE446DA5E-
-
