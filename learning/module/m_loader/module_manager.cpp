@@ -22,7 +22,7 @@ long module_manager::add_module( uint64 id, module_info *info )
     return E_OK;
   }
   else {
-    return E_MODULE_EXISTED;
+    return E_EXISTED;
   }
 }
 
@@ -40,7 +40,7 @@ long module_manager::remove_module( uint64 id )
     return E_OK;
   }
   else {
-    return E_MODULE_NOT_EXIST;
+    return E_NOT_EXIST;
   }
 
 }

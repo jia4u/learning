@@ -55,11 +55,11 @@ long module_loader::start()
   check_null( m_module, E_NOT_READY );
 
   for ( i = m_module->begin(); i != m_module->end(); ++i ) {
-    check_null( i->second, E_MODULE_NOT_EXIST );
-    check_null( i->second->module, E_MODULE_NOT_EXIST );
+    check_null( i->second, E_NOT_EXIST );
+    check_null( i->second->module, E_NOT_EXIST );
 
     code = i->second->module->start();
-    check_code( code, E_MODULE_START_FAIL );
+    check_code( code, E_MODULE_START );
   }
   
   return E_OK;
@@ -73,11 +73,11 @@ long module_loader::pause()
   check_null( m_module, E_NOT_READY );
 
   for ( i = m_module->begin(); i != m_module->end(); ++i ) {
-    check_null( i->second, E_MODULE_NOT_EXIST );
-    check_null( i->second->module, E_MODULE_NOT_EXIST );
+    check_null( i->second, E_NOT_EXIST );
+    check_null( i->second->module, E_NOT_EXIST );
 
     code = i->second->module->pause();
-    check_code( code, E_MODULE_START_FAIL );
+    check_code( code, E_MODULE_START );
   }
 
   return E_OK;
@@ -91,11 +91,11 @@ long module_loader::stop()
   check_null( m_module, E_NOT_READY );
 
   for ( i = m_module->begin(); i != m_module->end(); ++i ) {
-    check_null( i->second, E_MODULE_NOT_EXIST );
-    check_null( i->second->module, E_MODULE_NOT_EXIST );
+    check_null( i->second, E_NOT_EXIST );
+    check_null( i->second->module, E_NOT_EXIST );
 
     code = i->second->module->stop();
-    check_code( code, E_MODULE_START_FAIL );
+    check_code( code, E_MODULE_START );
   }
 
   return E_OK;

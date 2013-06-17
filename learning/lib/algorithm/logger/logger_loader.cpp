@@ -7,3 +7,13 @@
 //
 
 #include "logger_loader.h"
+
+logger* logger_loader::load_logger( xml_tree *root )
+{
+  return nullptr;
+}
+
+int logger_loader::load_loggers( xml_tree *root )
+{
+  return 0;
+}

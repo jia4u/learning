@@ -9,11 +9,12 @@
 #ifndef algorithm_base_to_derived_h
 #define algorithm_base_to_derived_h
 
-  // there are some limitations to use this function:
+  // there are some limitations for using this function:
   //    @para obj: it must be a base of derived
   //    @para type dervied: it must be a class or struct, it can not be a pointer
   //    @return: this dervied class must have  explicit the same data  field to the base
   //    @multi-inherit is not allowed
+  //    @the derived class should have default construct
   // orelse this convertion may cause damage
 template < typename derived >
 derived* to_derived_ptr( void *obj ) {

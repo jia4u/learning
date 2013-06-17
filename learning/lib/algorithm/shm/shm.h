@@ -9,6 +9,6 @@
 #ifndef __algorithm__shm__
 #define __algorithm__shm__
 
-#include <iostream>
+
 
 #endif /* defined(__algorithm__shm__) */

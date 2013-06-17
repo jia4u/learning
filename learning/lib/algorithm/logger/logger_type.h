@@ -9,6 +9,9 @@
 #ifndef algorithm_logger_type_h
 #define algorithm_logger_type_h
 
-
+enum logger_type {
+  LT_FILE,
+  LT_MEMORY,
+};
 
 #endif

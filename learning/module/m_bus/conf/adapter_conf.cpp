@@ -27,6 +27,6 @@ adapter* adapter_loader::load_adapter_from_xml( const xml_tree *root )
     tmp = tmp->next_sibling();
   }
 
-  return new adapter( atoi( id.c_str() ), messages );
+  return new adapter( atol( id.c_str() ), messages );
 }
 

@@ -1,0 +1,34 @@
+key purpose
+  - recieve external messages
+  - send messages to kernel by bus
+tips
+  - interface of the ear
+  - who stores the message(if processing is not so fast)
+  - the strategy of queue size controlling
+  - the strategy of speed of sending messages
+  - status of the module
+event
+  (passive)
+  - push message(extern -> ear)
+  - fetch message(ear -> kernel)
+  
+  - get queue size
+  - set queue size
+  - clear queue
+
+  - open logging
+  - close logging
+  - get logging level
+  - set logging level
+  
+  - enable auto-send message
+  - set send message interval
+  - disable auto-send message
+  
+  - get processed message count
+  - get dropped message count
+  - get recieved message count
+
+  (active)
+  - push message(ear->kernel)
+  

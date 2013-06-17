@@ -9,6 +9,14 @@
 #ifndef __algorithm__logger_loader__
 #define __algorithm__logger_loader__
 
-#include <iostream>
+#include "xml_conf.h"
+#include "logger_manager.h"
+
+class logger_loader {
+  static logger* load_logger( xml_tree *root );
+
+public:
+  static int load_loggers( xml_tree *root );
+};
 
 #endif /* defined(__algorithm__logger_loader__) */

@@ -9,6 +9,19 @@
 #ifndef __algorithm__string_copy__
 #define __algorithm__string_copy__
 
-#include <iostream>
+namespace alg {
+
+#ifdef __cplusplus
+  extern "C"
+  {
+#endif
+    
+    int strcpy( char *dst, const char *src );
+
+
+#ifdef __cplusplus
+  }
+#endif
+}
 
 #endif /* defined(__algorithm__string_copy__) */

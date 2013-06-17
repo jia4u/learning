@@ -164,7 +164,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Debug;
 		};
@@ -172,7 +175,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Release;
 		};

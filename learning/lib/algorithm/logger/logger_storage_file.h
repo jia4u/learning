@@ -9,6 +9,29 @@
 #ifndef __algorithm__log_storage_file__
 #define __algorithm__log_storage_file__
 
-#include <iostream>
+#include "logger_storage.h"
+
+#include <fstream>
+
+using namespace std;
+
+class logger_storage_file : public logger_storage {
+
+  char *m_buf;
+  int m_buf_cap;
+  int m_buf_remain;
+  ofstream m_stream;
+
+public:
+  virtual long write( const char *log, long len = -1 );
+
+  virtual int  get_buffer_size() const;
+  virtual void set_buffer_size( int size );
+
+  virtual const char* type();
+
+  virtual ~logger_storage_file();
+  logger_storage_file( const char *path );
+};
 
 #endif /* defined(__algorithm__log_storage_file__) */

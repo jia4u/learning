@@ -14,6 +14,118 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9447EF3E173A9A2B0002768F"
+               BuildableName = "libalgorithm.dylib"
+               BlueprintName = "algorithm"
+               ReferencedContainer = "container:learning/lib/algorithm/algorithm.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9447EEDE173A0F820002768F"
+               BuildableName = "libaddressing.dylib"
+               BlueprintName = "addressing"
+               ReferencedContainer = "container:learning/lib/addressing/addressing.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "94340523171A9A6300417095"
+               BuildableName = "libobject.dylib"
+               BlueprintName = "object"
+               ReferencedContainer = "container:learning/lib/object/object.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "94340539171A9ADB00417095"
+               BuildableName = "libinstruction.dylib"
+               BlueprintName = "instruction"
+               ReferencedContainer = "container:learning/lib/instruction/instruction.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "943404DF171A8D3700417095"
+               BuildableName = "libbus.dylib"
+               BlueprintName = "m_bus"
+               ReferencedContainer = "container:learning/module/m_bus/m_bus.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "943404B8171A8C6700417095"
+               BuildableName = "libloader.dylib"
+               BlueprintName = "m_loader"
+               ReferencedContainer = "container:learning/module/m_loader/m_loader.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "944898E3173F71CC009E4306"
+               BuildableName = "libear.dylib"
+               BlueprintName = "ear"
+               ReferencedContainer = "container:learning/module/ear/ear.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "942B952F1750C2E200C0402F"
+               BuildableName = "libtexear.dylib"
+               BlueprintName = "texear"
+               ReferencedContainer = "container:learning/module/texear/texear.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "944B9B6F16F4430700FEF4B0"
                BuildableName = "learning"
                BlueprintName = "learning"

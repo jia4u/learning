@@ -9,6 +9,16 @@
 #ifndef __algorithm__logger_factory__
 #define __algorithm__logger_factory__
 
-#include <iostream>
+#include "logger_manager.h"
+#include "xml_conf.h"
+
+class logger_factory {
+
+public:
+  logger* get_logger( const char *name );
+  logger* get_Logger( logger_type type, const char *path );
+
+  void load_logger_from_xml( xml_tree *root );
+};
 
 #endif /* defined(__algorithm__logger_factory__) */

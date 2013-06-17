@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		944898FA173F720C009E4306 /* ear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 944898F8173F720C009E4306 /* ear.cpp */; };
+		944898FB173F720C009E4306 /* ear.h in Headers */ = {isa = PBXBuildFile; fileRef = 944898F9173F720C009E4306 /* ear.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		944898E4173F71CC009E4306 /* libear.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libear.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		944898F8173F720C009E4306 /* ear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ear.cpp; sourceTree = "<group>"; };
+		944898F9173F720C009E4306 /* ear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ear.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,7 @@
 		944898DB173F71CC009E4306 = {
 			isa = PBXGroup;
 			children = (
+				944898F7173F71D8009E4306 /* ear */,
 				944898E5173F71CC009E4306 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +44,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		944898F7173F71D8009E4306 /* ear */ = {
+			isa = PBXGroup;
+			children = (
+				944898F8173F720C009E4306 /* ear.cpp */,
+				944898F9173F720C009E4306 /* ear.h */,
+			);
+			name = ear;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +60,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944898FB173F720C009E4306 /* ear.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944898FA173F720C009E4306 /* ear.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +183,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Debug;
 		};
@@ -172,7 +194,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = /Users/losor/Documents/project/learning/learning/include;
+				INSTALL_PATH = /Users/losor/Documents/project/learning/learning/bin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = /Users/losor/Documents/project/learning/learning/bin;
 			};
 			name = Release;
 		};
@@ -195,6 +220,7 @@
 				944898EA173F71CC009E4306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,6 +13,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		942B953B1750C2E300C0402F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942B95371750C2E200C0402F /* texear.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 942B95301750C2E200C0402F;
+			remoteInfo = texear;
+		};
 		943404C4171A8C6800417095 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 943404C0171A8C6700417095 /* m_loader.xcodeproj */;
@@ -55,6 +62,13 @@
 			remoteGlobalIDString = 9447EF3F173A9A2B0002768F;
 			remoteInfo = algorithm;
 		};
+		944898F1173F71CD009E4306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944898EB173F71CC009E4306 /* ear.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 944898E4173F71CC009E4306;
+			remoteInfo = ear;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +93,7 @@
 		94161F3E16FDC1590067884C /* items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = items.h; path = learning/include/items.h; sourceTree = "<group>"; };
 		9418AA09171D68A4006457E5 /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = debug.h; path = learning/include/debug.h; sourceTree = "<group>"; };
 		941FA62716F5B9FA0008C52A /* module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = module.h; path = learning/include/module.h; sourceTree = "<group>"; };
+		942B95371750C2E200C0402F /* texear.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = texear.xcodeproj; path = learning/module/texear/texear.xcodeproj; sourceTree = "<group>"; };
 		94340498171A839900417095 /* assertion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = assertion.h; path = learning/include/assertion.h; sourceTree = "<group>"; };
 		943404C0171A8C6700417095 /* m_loader.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = m_loader.xcodeproj; path = learning/module/m_loader/m_loader.xcodeproj; sourceTree = "<group>"; };
 		943404E7171A8D3700417095 /* m_bus.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = m_bus.xcodeproj; path = learning/module/m_bus/m_bus.xcodeproj; sourceTree = "<group>"; };
@@ -95,6 +110,8 @@
 		9447EEE6173A0F820002768F /* addressing.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = addressing.xcodeproj; path = learning/lib/addressing/addressing.xcodeproj; sourceTree = "<group>"; };
 		9447EF05173A2E430002768F /* addressing */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = addressing; path = learning/doc/addressing; sourceTree = "<group>"; };
 		9447EF46173A9A2B0002768F /* algorithm.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = algorithm.xcodeproj; path = learning/lib/algorithm/algorithm.xcodeproj; sourceTree = "<group>"; };
+		944898EB173F71CC009E4306 /* ear.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ear.xcodeproj; path = learning/module/ear/ear.xcodeproj; sourceTree = "<group>"; };
+		944898FC173F7BBE009E4306 /* texear */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = texear; path = learning/doc/texear; sourceTree = "<group>"; };
 		944B9B7016F4430800FEF4B0 /* learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B9B8716F4454800FEF4B0 /* int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = int.h; path = learning/include/int.h; sourceTree = "<group>"; };
 		94AEEE0717034193003CFBCD /* xml_conf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xml_conf.h; path = learning/include/xml_conf.h; sourceTree = "<group>"; };
@@ -122,6 +139,14 @@
 				940E624D16FF5A0600F001D6 /* rapidxml.h */,
 			);
 			name = rapidxml;
+			sourceTree = "<group>";
+		};
+		942B95381750C2E200C0402F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942B953C1750C2E300C0402F /* libtexear.dylib */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		943404C1171A8C6700417095 /* Products */ = {
@@ -180,9 +205,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		944898EC173F71CC009E4306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944898F2173F71CD009E4306 /* libear.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		944B9B6716F4430700FEF4B0 = {
 			isa = PBXGroup;
 			children = (
+				942B95371750C2E200C0402F /* texear.xcodeproj */,
+				944898EB173F71CC009E4306 /* ear.xcodeproj */,
 				9447EF46173A9A2B0002768F /* algorithm.xcodeproj */,
 				9447EEE6173A0F820002768F /* addressing.xcodeproj */,
 				94340541171A9ADB00417095 /* instruction.xcodeproj */,
@@ -248,6 +283,7 @@
 			isa = PBXGroup;
 			children = (
 				9447EF05173A2E430002768F /* addressing */,
+				944898FC173F7BBE009E4306 /* texear */,
 			);
 			name = doc;
 			sourceTree = "<group>";
@@ -301,6 +337,10 @@
 					ProjectRef = 9447EF46173A9A2B0002768F /* algorithm.xcodeproj */;
 				},
 				{
+					ProductGroup = 944898EC173F71CC009E4306 /* Products */;
+					ProjectRef = 944898EB173F71CC009E4306 /* ear.xcodeproj */;
+				},
+				{
 					ProductGroup = 94340542171A9ADB00417095 /* Products */;
 					ProjectRef = 94340541171A9ADB00417095 /* instruction.xcodeproj */;
 				},
@@ -316,6 +356,10 @@
 					ProductGroup = 9434052C171A9A6300417095 /* Products */;
 					ProjectRef = 9434052B171A9A6300417095 /* object.xcodeproj */;
 				},
+				{
+					ProductGroup = 942B95381750C2E200C0402F /* Products */;
+					ProjectRef = 942B95371750C2E200C0402F /* texear.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -325,6 +369,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		942B953C1750C2E300C0402F /* libtexear.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libtexear.dylib;
+			remoteRef = 942B953B1750C2E300C0402F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		943404C5171A8C6800417095 /* libloader.dylib */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.dylib";
@@ -365,6 +416,13 @@
 			fileType = "compiled.mach-o.dylib";
 			path = libalgorithm.dylib;
 			remoteRef = 9447EF4A173A9A2B0002768F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		944898F2173F71CD009E4306 /* libear.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libear.dylib;
+			remoteRef = 944898F1173F71CD009E4306 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
