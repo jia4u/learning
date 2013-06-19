@@ -1,89 +1,0 @@
-Tinstruction
-v5
-r1
-cCheck dependencies
-cCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib normal x86_64
-cGenerateDSYMFile /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000516E918000000000000000AA
-t1366200704
-s170
-
-N/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o
-t2
-s0
-
-N/Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instruction.LinkFileList
-c000000005189D9AD0000000000000084
-t1367988653
-s132
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp
-c00000000517AC86200000000000000A4
-t1367001186
-s164
-i"instr_find.h"
-
-N/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.h
-c00000000517AC84F00000000000000EE
-t1367001167
-s238
-
-CBuild AST from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf3c7082d113ab741^9ca30e2d113ab741^---0#1#0#--18"Check dependencies36"7EF25373-6398-4F41-8C26-48AC535B6F30-
-
-CCompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s389681453.059033
-e389681453.123797
-r0
-xCompileC
-x/Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o
-x/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp:9:
-oIn file included from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.h:12:
-o/Users/losor/Documents/project/learning/learning/lib/instruction/instruction.h:12:10: fatal error: 'addressing.h' file not found
-o#include "addressing.h"
-o         ^
-o1 error generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp6e310f2d113ab741^21af1f2d113ab741^-392"In file included from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp:9:In file included from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.h:12:/Users/losor/Documents/project/learning/learning/lib/instruction/instruction.h:12:10: fatal error: 'addressing.h' file not found#include "addressing.h"         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@29"'addressing.h' file not found-389681453#18446744073709551615#0#2(2@104"In file included from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp:9:-389681453#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@95"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp0000000000000000^8#9#8#9#148#0#21"Clang LLVM 1.0 Notice--2@103"In file included from /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.h:12:-389681453#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.h0000000000000000^11#9#11#9#213#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/instruction.h0000000000000000^11#9#11#9#203#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp0000000000000000^2799"CompileC /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o instr_find.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/instruction-generated-files.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/instruction-own-target-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/instruction-all-target-headers.hmap -iquote /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/instruction-project-headers.hmap -I/Users/losor/Documents/project/learning/learning/bin/Release/include -I/Users/losor/Documents/project/learning/learning/include -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/DerivedSources/x86_64 -I/Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/DerivedSources -F/Users/losor/Documents/project/learning/learning/bin/Release -MMD -MT dependencies -MF /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.d --serialize-diagnostics /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.dia -c /Users/losor/Documents/project/learning/learning/lib/instruction/instr_find.cpp -o /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o36"3D9D193B-322A-41DD-B99E-ACB480033F7B-
-
-CGenerateDSYMFile /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib
-s389681453.472574
-e389681453.499662
-r0
-xGenerateDSYMFile
-x/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM
-x/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib
-oerror: unable to open executable '/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib'
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Generate /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM3811792d113ab741^c6a4bf2d113ab741^-116"error: unable to open executable '/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib'1(21%IDEActivityLogMessage2@116"error: unable to open executable '/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib'-389681453#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#14"Dsymutil Error--0#0#0#-19%DVTDocumentLocation4@102"file://localhost/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM000000000080d041^530"GenerateDSYMFile /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib    cd /Users/losor/Documents/project/learning/learning/lib/instruction    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib -o /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib.dSYM36"D0E9FCC7-6F8B-468D-9499-A6468A6C583C-
-
-CLd /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib normal x86_64
-s389681453.232616
-e389681453.294386
-r0
-xLd
-x/Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib
-xnormal
-xx86_64
-old: file not found: /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o
-oclang: error: linker command failed with exit code 1 (use -v to see invocation)
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Link /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dyliba0a53b2d113ab741^69014e2d113ab741^-232"ld: file not found: /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.oclang: error: linker command failed with exit code 1 (use -v to see invocation)2(21%IDEActivityLogMessage2@147"File not found: /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instr_find.o-389681453#0#152#-0#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-389681453#152#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--998"Ld /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib normal x86_64    cd /Users/losor/Documents/project/learning/learning/lib/instruction    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/losor/Documents/project/learning/learning/bin/Release -F/Users/losor/Documents/project/learning/learning/bin/Release -filelist /Users/losor/Documents/project/learning/learning/bin/instruction.build/Release/instruction.build/Objects-normal/x86_64/instruction.LinkFileList -install_name /Users/losor/Documents/project/learning/learning/bin/libinstruction.dylib -mmacosx-version-min=10.8 -stdlib=libc++ -single_module -compatibility_version 1 -current_version 1 -o /Users/losor/Documents/project/learning/learning/bin/Release/libinstruction.dylib36"37D4F627-C700-4BF8-9746-1F27888E1489-
-
